@@ -153,10 +153,6 @@ def main():
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     (SITE_DATA / "site.json").write_text(json.dumps(site, ensure_ascii=False))
     print("site.json written:", counts)
-    changed = [(ab, s["fipi"]["composite"], s["fipi_current"]["composite"]) for ab, s in states.items()
-               if s["fipi"]["composite"] != s["fipi_current"]["composite"]]
-    if changed:
-        print("FIPI changed vs study:", ", ".join(f"{ab} {a}->{b}" for ab, a, b in changed))
 
 
 if __name__ == "__main__":

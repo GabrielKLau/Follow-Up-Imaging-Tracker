@@ -2745,7 +2745,7 @@
   "outcome": "not_enacted"
  },
  "1906249": {
-  "change_hash": "dc1dc05939d76f943fd38ecec3a3390c",
+  "change_hash": "fc480c5add0ac89979637009c6614ea7",
   "doc_id": 3448631,
   "outcome": "keyword_filter"
  },
@@ -3260,7 +3260,7 @@
   "outcome": "ai_excluded"
  },
  "2027021": {
-  "change_hash": "849bfd031f75cbcfdcf6af32f37d9dfb",
+  "change_hash": "eb52d7bbc617b76d515746a3fec0656d",
   "doc_id": 3259757,
   "outcome": "queued"
  },
@@ -3385,7 +3385,7 @@
   "outcome": "ai_excluded"
  },
  "2053640": {
-  "change_hash": "af9336490b1d58e95e6f68b7b661f877",
+  "change_hash": "5322dfc7ed8917a502568507646a8d7f",
   "doc_id": 3312543,
   "outcome": "queued"
  },
@@ -4010,7 +4010,7 @@
   "outcome": "ai_excluded"
  },
  "2155914": {
-  "change_hash": "dd9662f29e9ed360ed9674ed474ac94e",
+  "change_hash": "2089e2b7abfa2032d5e00f1cc5fb1b17",
   "doc_id": 3454238,
   "outcome": "ai_excluded"
  },
@@ -4063,6 +4063,21 @@
   "change_hash": "d419262cd0d7aa490d131f9c7112475a",
   "doc_id": 3465012,
   "outcome": "queued"
+ },
+ "2163279": {
+  "change_hash": "0b02ccb4a2a0a0899f1319c479df2db9",
+  "doc_id": 3465971,
+  "outcome": "queued"
+ },
+ "2163327": {
+  "change_hash": "07e5096015eef5f1890597a6aaee33ed",
+  "doc_id": 3465965,
+  "outcome": "queued"
+ },
+ "2163692": {
+  "change_hash": "d6713fc620b52fcf4b9da8876242c127",
+  "doc_id": 3467000,
+  "outcome": "ai_excluded"
  },
  "223451": {
   "change_hash": "8364dc5dee0ee03337a774fb27f98a1d",

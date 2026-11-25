@@ -6479,6 +6479,113 @@
   "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00450I.htm",
   "title": "Relating to preauthorization of certain benefits by certain health benefit plan issuers."
  },
+ "2163279": {
+  "bill_id": 2163279,
+  "checked": "2026-11-25",
+  "classification": {
+   "breast": {
+    "addresses_followup_imaging": true,
+    "biopsy_covered": false,
+    "evidence": [
+     "A health benefit plan issuer that provides coverage under this section may not require preauthorization for a screening mammogram or diagnostic imaging described by Subsection (a) or (a-1)."
+    ],
+    "mandates_coverage": false,
+    "modalities": [
+     "diagnostic mammography"
+    ],
+    "prior_auth_prohibited": true,
+    "prohibits_cost_sharing": false,
+    "reason": "The bill only adds a ban on preauthorization for screening mammograms and diagnostic imaging under existing Sec. 1356.005(a) or (a-1). It contains no cost-sharing language, and the underlying text of those subsections is not supplied. If existing law already requires no-cost-sharing coverage of diagnostic imaging, this strengthens that law (prior authorization prohibited); human review of Sec. 1356.005 is needed.",
+    "scope": "strengthens_existing_law",
+    "verdict": "uncertain"
+   },
+   "lung": {
+    "addresses_followup_imaging": false,
+    "biopsy_covered": false,
+    "evidence": [],
+    "mandates_coverage": false,
+    "modalities": [],
+    "prior_auth_prohibited": false,
+    "prohibits_cost_sharing": false,
+    "reason": "The bill does not address lung cancer screening or follow-up imaging.",
+    "scope": "none",
+    "verdict": "exclude"
+   },
+   "summary": "Texas SB350 adds a prohibition on preauthorization to several existing coverage mandates. For breast, it bars preauthorization for a screening mammogram or diagnostic imaging described by Section 1356.005(a) or (a-1). The bill does not reprint those subsections, and it names no imaging modalities beyond mammogram and unspecified diagnostic imaging. It also does not state any cost-sharing rule, so whether the underlying mandate bans cost-sharing for diagnostic imaging cannot be confirmed. Breast is therefore uncertain and needs human review. Lung is not addressed, so it is excluded."
+  },
+  "decision": "approve",
+  "found": "2026-11-25",
+  "legiscan_url": "https://legiscan.com/TX/bill/SB350/2027",
+  "model": "claude-sonnet-5-5",
+  "number": "SB350",
+  "official_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB350",
+  "scope": "enhancement",
+  "session": "90th Legislature Regular Session",
+  "stage": "Introduced",
+  "state": "TX",
+  "status": "pending",
+  "status_date": "2026-11-12",
+  "text_doc_id": 3465971,
+  "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00350I.htm",
+  "title": "Relating to preauthorization of certain benefits by certain health benefit plan issuers."
+ },
+ "2163327": {
+  "bill_id": 2163327,
+  "checked": "2026-11-25",
+  "classification": {
+   "breast": {
+    "addresses_followup_imaging": true,
+    "biopsy_covered": false,
+    "evidence": [
+     "\"Diagnostic imaging\" means a medically necessary and appropriate examination of the breast, as determined by National Comprehensive Cancer Network guidelines, including an examination using contrast-enhanced mammography, diagnostic mammography, breast ultrasound imaging, breast magnetic resonance imaging, or molecular breast imaging",
+     "an abnormality seen by a physician on a screening mammogram",
+     "A health benefit plan may not impose a cost-sharing requirement on coverage for a screening mammogram, diagnostic imaging, or supplemental breast examination",
+     "\"Cost-sharing requirement\" means a deductible, coinsurance, or copayment or a maximum limitation on the application of a deductible, coinsurance, or copayment or similar out-of-pocket expense."
+    ],
+    "mandates_coverage": true,
+    "modalities": [
+     "diagnostic mammography",
+     "ultrasound",
+     "MRI",
+     "contrast-enhanced mammography",
+     "molecular breast imaging"
+    ],
+    "prior_auth_prohibited": false,
+    "prohibits_cost_sharing": true,
+    "reason": "Defines diagnostic imaging to evaluate abnormalities seen on screening mammogram and prohibits any cost-sharing for it; coverage is required by existing Sec. 1356.005 and the bill removes the old cost-sharing parity with other radiological exams. Includes no-cost supplemental exams as well.",
+    "scope": "commercial_mandate",
+    "verdict": "include"
+   },
+   "lung": {
+    "addresses_followup_imaging": false,
+    "biopsy_covered": false,
+    "evidence": [],
+    "mandates_coverage": false,
+    "modalities": [],
+    "prior_auth_prohibited": false,
+    "prohibits_cost_sharing": false,
+    "reason": "The bill concerns only breast imaging and does not address lung cancer screening or follow-up.",
+    "scope": "none",
+    "verdict": "exclude"
+   },
+   "summary": "Texas HB1153 amends Insurance Code ch. 1356 so a health benefit plan may not impose any cost-sharing requirement on screening mammograms, diagnostic imaging, or supplemental breast examinations. Diagnostic imaging covers abnormalities seen on screening mammograms and includes contrast-enhanced mammography, diagnostic mammography, breast ultrasound, breast MRI, and molecular breast imaging. Supplemental exams name contrast-enhanced mammography, ultrasound, MRI, and molecular breast imaging. Breast: include. Lung: not addressed, exclude."
+  },
+  "decision": "approve",
+  "found": "2026-11-25",
+  "legiscan_url": "https://legiscan.com/TX/bill/HB1153/2027",
+  "model": "claude-sonnet-5-5",
+  "number": "HB1153",
+  "official_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1153",
+  "scope": "enhancement",
+  "session": "90th Legislature Regular Session",
+  "stage": "Introduced",
+  "state": "TX",
+  "status": "pending",
+  "status_date": "2026-11-13",
+  "text_doc_id": 3465965,
+  "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01153I.htm",
+  "title": "Relating to coverage for screening mammograms, diagnostic imaging, and supplemental breast examinations under certain health benefit plans."
+ },
  "881612": {
   "bill_id": 881612,
   "checked": "2026-11-13",

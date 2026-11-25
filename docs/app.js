@@ -97,12 +97,13 @@ function drawMap(topo) {
     .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(FIPS[d.id]); } })
     .on("mousemove", (e, d) => {
       const ab = FIPS[d.id], s = DATA.states[ab], v = s[view];
-      const n = view === "combined" ? s.breast.bills.length + s.lung.bills.length : v.bills.length;
+      const ids = view === "combined" ? [...s.breast.bills, ...s.lung.bills] : v.bills;
+      const bc = billCount(ids), line = bc.n ? `<br>${bc.n} bill${bc.n > 1 ? "s" : ""}${bc.pending ? ` (${bc.pending} pending)` : ""}` : "";
       tip.innerHTML = view === "combined"
-        ? `<b>${esc(s.name)}</b>${fipiLine(s)}` + (v.has_pending ? "<br>Bill pending" : "") + (n ? `<br>${n} tracked bill${n > 1 ? "s" : ""}` : "")
+        ? `<b>${esc(s.name)}</b>${fipiLine(s)}` + (v.has_pending ? "<br>Bill pending" : "") + line
         : `<b>${esc(s.name)}</b>${STATUS[v.status].long} (${VIEW_NAME[view]})` +
           (v.has_pending && ["enacted", "partial"].includes(v.status) ? "<br>Another bill is pending" : "") +
-          `<br>FIPI score ${s.fipi_current.composite}/10` + (n ? `<br>${n} tracked bill${n > 1 ? "s" : ""}` : "");
+          `<br>FIPI score ${s.fipi_current.composite}/10` + line;
       tip.hidden = false;
       tip.style.left = Math.min(e.clientX + 14, innerWidth - 270) + "px";
       tip.style.top = e.clientY + 14 + "px";
@@ -361,11 +362,18 @@ function renderDetail() {
   }));
 }
 
+// Bills on record for a state (enacted, died and pending); only pending ones are still moving.
+function billCount(ids) {
+  const uniq = [...new Set(ids.map(String))];
+  return {n: uniq.length, pending: uniq.filter((id) => (DATA.bills[id] || {}).status === "pending").length};
+}
+
 function renderTable() {
   const rows = Object.values(DATA.states).sort((a, b) => a.name.localeCompare(b.name));
   $("#table tbody").innerHTML = rows.map((s) => {
-    const n = new Set([...s.breast.bills, ...s.lung.bills]).size;
-    return `<tr data-ab="${s.abbr}"><td>${esc(s.name)}</td><td>${pill(s.breast.status)}</td><td>${pill(s.lung.status)}</td><td class="num">${s.fipi_current.composite}</td><td class="num">${n}</td></tr>`;
+    const {n, pending} = billCount([...s.breast.bills, ...s.lung.bills]);
+    const cell = n + (pending ? ` <span class="muted">(${pending} pending)</span>` : "");
+    return `<tr data-ab="${s.abbr}"><td>${esc(s.name)}</td><td>${pill(s.breast.status)}</td><td>${pill(s.lung.status)}</td><td class="num">${s.fipi_current.composite}</td><td class="num">${cell}</td></tr>`;
   }).join("");
   document.querySelectorAll("#table tbody tr").forEach((r) => r.addEventListener("click", () => { if (selected !== r.dataset.ab) select(r.dataset.ab); }));
 }

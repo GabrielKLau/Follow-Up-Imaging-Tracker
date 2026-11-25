@@ -18235,7 +18235,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "126th General Assembly",
   "sponsors": [
@@ -23424,7 +23424,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2025-2026 Session",
   "sponsors": [
@@ -24468,7 +24468,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "enhancement",
   "session": "34th Legislature",
   "sponsors": [
@@ -24572,7 +24572,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2025-2026 Session",
   "sponsors": [
@@ -24962,7 +24962,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "119th Congress",
   "sponsors": [
@@ -25491,7 +25491,7 @@
  },
  "2027021": {
   "bill_id": 2027021,
-  "change_hash": "849bfd031f75cbcfdcf6af32f37d9dfb",
+  "change_hash": "eb52d7bbc617b76d515746a3fec0656d",
   "classification": {
    "breast": {
     "biopsy_covered": false,
@@ -25547,6 +25547,15 @@
     "major": false,
     "text": "Bill text published: Introduced version",
     "url": "https://www.congress.gov/119/bills/hr3037/BILLS-119hr3037ih.pdf"
+   },
+   {
+    "chamber": "",
+    "date": "2026-11-25",
+    "id": "2027021-s-20084",
+    "kind": "sponsor",
+    "major": false,
+    "text": "Sponsor added: Rep. Carol Miller (R)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3037/all-info"
    }
   ],
   "last_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
@@ -25557,7 +25566,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "119th Congress",
   "sponsors": [
@@ -25628,7 +25637,8 @@
    "Rep. James McGovern (D)",
    "Rep. Joyce Beatty (D)",
    "Rep. Josh Riley (D)",
-   "Rep. Julia Brownley (D)"
+   "Rep. Julia Brownley (D)",
+   "Rep. Carol Miller (R)"
   ],
   "sponsors_raw": [
    {
@@ -25834,6 +25844,9 @@
    },
    {
     "people_id": 14882
+   },
+   {
+    "people_id": 20084
    }
   ],
   "stage": "Referred to committee",
@@ -25903,7 +25916,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "119th Congress",
   "sponsors": [
@@ -25977,15 +25990,18 @@
    "breast": {
     "biopsy_covered": true,
     "evidence": [
-     "(3) To diagnose breast cancer in adult individuals meeting the condition described in division (C)(3) of this section, a diagnostic breast examination;",
-     "(3) The benefits provided under division (B)(3) of this section shall cover expenses for diagnostic breast examination for an adult individual who has an abnormality seen or suspected from, or detected by, a screening mammography, supplemental breast cancer screening, or another means of examination.",
-     "(G) No policy of individual or group sickness and accident insurance that is delivered, issued for delivery, or renewed in this state shall impose a cost-sharing requirement for the benefits provided under division (B) of this section.",
-     "\"Diagnostic breast examination\" means any examination that, in accordance with applicable American college of radiology guidelines, is deemed medically necessary by a treating health care provider to diagnose breast cancer, including diagnostic mammography, magnetic resonance imaging, ultrasound, or biopsy."
+     "\"Diagnostic breast examination\" means any examination that, in accordance with applicable American college of radiology guidelines, is deemed medically necessary by a treating health care provider to diagnose breast cancer, including diagnostic mammography, magnetic resonance imaging, ultrasound, or biopsy.",
+     "\"Supplemental breast cancer screening\" means any additional screening method deemed medically necessary by a treating health care provider for proper breast cancer screening in accordance with applicable American college of radiology guidelines, including magnetic resonance imaging, ultrasound, contrast enhanced mammography, or molecular breast imaging.",
+     "The benefits provided under division (B)(3) of this section shall cover expenses for diagnostic breast examination for an adult individual who has an abnormality seen or suspected from, or detected by, a screening mammography, supplemental breast cancer screening, or another means of examination.",
+     "No policy of individual or group sickness and accident insurance that is delivered, issued for delivery, or renewed in this state shall impose a cost-sharing requirement for the benefits provided under division (B) of this section.",
+     "No individual or group health insuring corporation policy, contract, or agreement providing basic health care services that is delivered, issued for delivery, or renewed in this state shall impose a cost-sharing requirement for the benefits provided under division (B) of this section."
     ],
     "modalities": [
      "diagnostic mammography",
      "ultrasound",
-     "MRI"
+     "MRI",
+     "contrast-enhanced mammography",
+     "molecular breast imaging"
     ],
     "prior_auth_prohibited": false,
     "reason": "Adds a standalone 'shall provide benefits' clause for diagnostic breast examination (diagnostic mammography, MRI, ultrasound, biopsy) for individuals with an abnormality seen or suspected from screening, and expressly prohibits cost-sharing for all division (B) benefits, including the new (B)(3). Applies to state-regulated commercial plans (HICs and sickness and accident policies) as well as public employee plans and Medicaid. Biopsy is explicitly included and exempted from facility accreditation requirements.",
@@ -26039,7 +26055,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "136th General Assembly",
   "sponsors": [
@@ -26118,7 +26134,7 @@
   "state": "OH",
   "status": "pending",
   "status_date": "2025-05-13",
-  "summary": "Ohio HB271 (BEST Act) amends commercial insurance (HIC and sickness & accident), public employee plan, and Medicaid statutes to add a mandated diagnostic breast examination benefit (diagnostic mammography, MRI, ultrasound, biopsy) for individuals with an abnormality seen or suspected from screening, and bans cost-sharing for all division (B) benefits. It does not address lung cancer screening.",
+  "summary": "Ohio HB271 (BEST Act) amends ORC 1751.62, 3923.52, 3923.53, 5162.20 and 5164.08 to require coverage of diagnostic breast examinations (diagnostic mammography, MRI, ultrasound, biopsy) for individuals with an abnormality seen or suspected from screening, and bans cost-sharing for all division (B) benefits in HIC, sickness and accident, public employee, and Medicaid coverage. It also covers supplemental breast cancer screening, defined to include MRI, ultrasound, contrast-enhanced mammography and molecular breast imaging, so five modalities are named in all. It does not address lung cancer screening.",
   "text_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb271/00_IN/pdf/",
   "title": "Enact Breast Examination and Screening Transformation (BEST) Act"
  },
@@ -27578,7 +27594,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "103rd Legislature",
   "sponsors": [
@@ -27723,7 +27739,7 @@
  },
  "2053640": {
   "bill_id": 2053640,
-  "change_hash": "af9336490b1d58e95e6f68b7b661f877",
+  "change_hash": "5322dfc7ed8917a502568507646a8d7f",
   "classification": {
    "breast": {
     "biopsy_covered": false,
@@ -27790,6 +27806,24 @@
     "major": true,
     "text": "Referred to the Subcommittee on Health.",
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/6182/all-info"
+   },
+   {
+    "chamber": "",
+    "date": "2026-11-25",
+    "id": "2053640-s-24018",
+    "kind": "sponsor",
+    "major": false,
+    "text": "Sponsor added: Rep. Valerie Foushee (D)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6182/all-info"
+   },
+   {
+    "chamber": "",
+    "date": "2026-11-25",
+    "id": "2053640-s-25871",
+    "kind": "sponsor",
+    "major": false,
+    "text": "Sponsor added: Rep. Janelle Bynum (D)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6182/all-info"
    }
   ],
   "last_action": "Referred to the Subcommittee on Health.",
@@ -27800,7 +27834,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "119th Congress",
   "sponsors": [
@@ -27887,7 +27921,9 @@
    "Rep. Juan Vargas (D)",
    "Rep. Stephen Lynch (D)",
    "Rep. Becca Balint (D)",
-   "Rep. Julia Brownley (D)"
+   "Rep. Julia Brownley (D)",
+   "Rep. Valerie Foushee (D)",
+   "Rep. Janelle Bynum (D)"
   ],
   "sponsors_raw": [
    {
@@ -28141,6 +28177,12 @@
    },
    {
     "people_id": 14882
+   },
+   {
+    "people_id": 24018
+   },
+   {
+    "people_id": 25871
    }
   ],
   "stage": "Referred to committee",
@@ -29559,7 +29601,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2025-2026 Regular Session",
   "sponsors": [
@@ -30092,7 +30134,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2026-2027 Regular Session",
   "sponsors": [
@@ -30217,7 +30259,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "126th General Assembly",
   "sponsors": [
@@ -31374,7 +31416,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2026-2027 Regular Session",
   "sponsors": [
@@ -32940,7 +32982,7 @@
   "organs": [
    "lung"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2025-2026 Regular Session",
   "sponsors": [
@@ -33670,7 +33712,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "2025-2026 Session",
   "sponsors": [
@@ -33902,7 +33944,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "partial",
   "session": "119th Congress",
   "sponsors": [
@@ -33993,7 +34035,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "103rd Legislature",
   "sponsors": [
@@ -34102,7 +34144,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "full",
   "session": "90th Legislature Regular Session",
   "sponsors": [
@@ -34190,7 +34232,7 @@
   "organs": [
    "breast"
   ],
-  "refreshed": "2026-11-13",
+  "refreshed": "2026-11-25",
   "scope": "enhancement",
   "session": "90th Legislature Regular Session",
   "sponsors": [
@@ -34208,6 +34250,170 @@
   "summary": "HB450 bars preauthorization for several benefits. For breast, it bars preauthorization for screening mammograms and diagnostic imaging under Ins. Code 1356.005(a) and (a-1), but the text does not show whether cost-sharing is prohibited. Nothing in it concerns lung cancer screening or follow-up.",
   "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00450I.htm",
   "title": "Relating to preauthorization of certain benefits by certain health benefit plan issuers."
+ },
+ "2163279": {
+  "bill_id": 2163279,
+  "change_hash": "0b02ccb4a2a0a0899f1319c479df2db9",
+  "classification": {
+   "breast": {
+    "biopsy_covered": false,
+    "evidence": [
+     "A health benefit plan issuer that provides coverage under this section may not require preauthorization for a screening mammogram or diagnostic imaging described by Subsection (a) or (a-1)."
+    ],
+    "modalities": [
+     "diagnostic mammography"
+    ],
+    "prior_auth_prohibited": true,
+    "reason": "The bill only adds a ban on preauthorization for screening mammograms and diagnostic imaging under existing Sec. 1356.005(a) or (a-1). It contains no cost-sharing language, and the underlying text of those subsections is not supplied. If existing law already requires no-cost-sharing coverage of diagnostic imaging, this strengthens that law (prior authorization prohibited); human review of Sec. 1356.005 is needed.",
+    "verdict": "uncertain"
+   },
+   "lung": {
+    "biopsy_covered": false,
+    "evidence": [],
+    "modalities": [],
+    "prior_auth_prohibited": false,
+    "reason": "The bill does not address lung cancer screening or follow-up imaging.",
+    "verdict": "exclude"
+   }
+  },
+  "committee": "",
+  "description": "Relating to preauthorization of certain benefits by certain health benefit plan issuers.",
+  "events": [
+   {
+    "chamber": "Senate",
+    "date": "2026-11-12",
+    "id": "2163279-h-2026-11-12-0",
+    "kind": "action",
+    "major": false,
+    "text": "Received by the Secretary of the Senate",
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB350"
+   },
+   {
+    "chamber": "Senate",
+    "date": "2026-11-12",
+    "id": "2163279-h-2026-11-12-1",
+    "kind": "action",
+    "major": true,
+    "text": "Filed",
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB350"
+   },
+   {
+    "chamber": "",
+    "date": "2026-11-13",
+    "id": "2163279-t-3465971",
+    "kind": "text",
+    "major": false,
+    "text": "Bill text published: Introduced version",
+    "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00350I.htm"
+   }
+  ],
+  "last_action": "Filed",
+  "last_action_date": "2026-11-12",
+  "legiscan_url": "https://legiscan.com/TX/bill/SB350/2027",
+  "number": "SB350",
+  "official_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB350",
+  "organs": [
+   "breast"
+  ],
+  "refreshed": "2026-11-25",
+  "scope": "enhancement",
+  "session": "90th Legislature Regular Session",
+  "sponsors": [
+   "Sen. Borris Miles (D)"
+  ],
+  "sponsors_raw": [
+   {
+    "people_id": 11599
+   }
+  ],
+  "stage": "Introduced",
+  "state": "TX",
+  "status": "pending",
+  "status_date": "2026-11-12",
+  "summary": "Texas SB350 adds a prohibition on preauthorization to several existing coverage mandates. For breast, it bars preauthorization for a screening mammogram or diagnostic imaging described by Section 1356.005(a) or (a-1). The bill does not reprint those subsections, and it names no imaging modalities beyond mammogram and unspecified diagnostic imaging. It also does not state any cost-sharing rule, so whether the underlying mandate bans cost-sharing for diagnostic imaging cannot be confirmed. Breast is therefore uncertain and needs human review. Lung is not addressed, so it is excluded.",
+  "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00350I.htm",
+  "title": "Relating to preauthorization of certain benefits by certain health benefit plan issuers."
+ },
+ "2163327": {
+  "bill_id": 2163327,
+  "change_hash": "07e5096015eef5f1890597a6aaee33ed",
+  "classification": {
+   "breast": {
+    "biopsy_covered": false,
+    "evidence": [
+     "\"Diagnostic imaging\" means a medically necessary and appropriate examination of the breast, as determined by National Comprehensive Cancer Network guidelines, including an examination using contrast-enhanced mammography, diagnostic mammography, breast ultrasound imaging, breast magnetic resonance imaging, or molecular breast imaging",
+     "an abnormality seen by a physician on a screening mammogram",
+     "A health benefit plan may not impose a cost-sharing requirement on coverage for a screening mammogram, diagnostic imaging, or supplemental breast examination",
+     "\"Cost-sharing requirement\" means a deductible, coinsurance, or copayment or a maximum limitation on the application of a deductible, coinsurance, or copayment or similar out-of-pocket expense."
+    ],
+    "modalities": [
+     "diagnostic mammography",
+     "ultrasound",
+     "MRI",
+     "contrast-enhanced mammography",
+     "molecular breast imaging"
+    ],
+    "prior_auth_prohibited": false,
+    "reason": "Defines diagnostic imaging to evaluate abnormalities seen on screening mammogram and prohibits any cost-sharing for it; coverage is required by existing Sec. 1356.005 and the bill removes the old cost-sharing parity with other radiological exams. Includes no-cost supplemental exams as well.",
+    "verdict": "include"
+   },
+   "lung": {
+    "biopsy_covered": false,
+    "evidence": [],
+    "modalities": [],
+    "prior_auth_prohibited": false,
+    "reason": "The bill concerns only breast imaging and does not address lung cancer screening or follow-up.",
+    "verdict": "exclude"
+   }
+  },
+  "committee": "",
+  "description": "Relating to coverage for screening mammograms, diagnostic imaging, and supplemental breast examinations under certain health benefit plans.",
+  "events": [
+   {
+    "chamber": "House",
+    "date": "2026-11-13",
+    "id": "2163327-h-2026-11-13-0",
+    "kind": "action",
+    "major": true,
+    "text": "Filed",
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1153"
+   },
+   {
+    "chamber": "",
+    "date": "2026-11-13",
+    "id": "2163327-t-3465965",
+    "kind": "text",
+    "major": false,
+    "text": "Bill text published: Introduced version",
+    "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01153I.htm"
+   }
+  ],
+  "last_action": "Filed",
+  "last_action_date": "2026-11-13",
+  "legiscan_url": "https://legiscan.com/TX/bill/HB1153/2027",
+  "number": "HB1153",
+  "official_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1153",
+  "organs": [
+   "breast"
+  ],
+  "refreshed": "2026-11-25",
+  "scope": "enhancement",
+  "session": "90th Legislature Regular Session",
+  "sponsors": [
+   "Rep. Barbara Gervin-Hawkins (D)"
+  ],
+  "sponsors_raw": [
+   {
+    "people_id": 18029
+   }
+  ],
+  "stage": "Introduced",
+  "state": "TX",
+  "status": "pending",
+  "status_date": "2026-11-13",
+  "summary": "Texas HB1153 amends Insurance Code ch. 1356 so a health benefit plan may not impose any cost-sharing requirement on screening mammograms, diagnostic imaging, or supplemental breast examinations. Diagnostic imaging covers abnormalities seen on screening mammograms and includes contrast-enhanced mammography, diagnostic mammography, breast ultrasound, breast MRI, and molecular breast imaging. Supplemental exams name contrast-enhanced mammography, ultrasound, MRI, and molecular breast imaging. Breast: include. Lung: not addressed, exclude.",
+  "text_url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01153I.htm",
+  "title": "Relating to coverage for screening mammograms, diagnostic imaging, and supplemental breast examinations under certain health benefit plans."
  },
  "881612": {
   "bill_id": 881612,

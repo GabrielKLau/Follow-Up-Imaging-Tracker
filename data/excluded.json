@@ -4151,6 +4151,20 @@
   "summary": "Excerpt of Virginia HB548 (Medicaid benefit provisions and advance directive text). It mandates Medicaid coverage of screening mammograms (item 16), prostate and colorectal screening, and breast reconstruction, but the excerpt contains no follow-up or diagnostic imaging mandate and no cost-sharing prohibition for either organ. Applies only to Medicaid, not commercial plans.",
   "title": "Uniform Health Care Decisions Act; civil penalty."
  },
+ "2163692": {
+  "bill_id": 2163692,
+  "checked": "2026-11-25",
+  "legiscan_url": "https://legiscan.com/NV/bill/SB75/2027",
+  "model": "claude-haiku-5-5",
+  "number": "SB75",
+  "official_url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13239/Overview",
+  "reason": "breast: restates existing law: the reprinted NRS 689A.0405 diagnostic breast imaging coverage and cost-sharing ban are unchanged; the amendment only removes bracketed definitions.; lung: The excerpt contains no lung cancer screening or follow-up imaging coverage provisions.",
+  "session": "84th Legislature (2027)",
+  "stage": "ai_excluded",
+  "state": "NV",
+  "summary": "Excerpt of Nevada SB75 (2023 insurance revision). The breast-imaging provisions (NRS 689A.0405, 689B.0374, 689C.1674, 695A.1855, 695B.1912, 695C.1735, 695G.1713) reprint existing law requiring coverage of diagnostic breast imaging and barring cost-sharing for it. The bracketed changes shown delete definitions and relocate them, so the bill's actual amendment does not add or change follow-up imaging coverage. Breast is excluded as restating existing law. No lung cancer screening follow-up provisions appear in the excerpt, so lung is excluded.",
+  "title": "Revises provisions relating to insurance. (BDR 57-184)"
+ },
  "229610": {
   "bill_id": 229610,
   "checked": "2026-11-13",
