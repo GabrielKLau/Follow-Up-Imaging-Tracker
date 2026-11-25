@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Follow-up Imaging Legislation Tracker</title>
+<meta name="description" content="Live tracker of U.S. laws and bills mandating no-cost-sharing insurance coverage of follow-up imaging after abnormal breast and lung cancer screening.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&display=swap">
+<link rel="stylesheet" href="style.css?v=18">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="masthead">
+<header class="top">
+  <div>
+    <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><path class="lg-ink" d="M6 15V8a2 2 0 0 1 2-2h7M33 6h7a2 2 0 0 1 2 2v7M42 33v7a2 2 0 0 1-2 2h-7M15 42H8a2 2 0 0 1-2-2v-7"/><circle class="lg-ring" cx="24" cy="24" r="10"/><path class="lg-check" d="M19 24.3l3.6 3.5 6.6-7"/></svg><h1><span class="eyebrow-t">Follow-up Imaging</span> <span class="headline">Legislation Tracker</span></h1></a>
+    <p class="sub">Which states require insurers to cover follow-up imaging after an abnormal breast or lung
+      cancer screening, with no patient cost-sharing, and what is moving through legislatures now.
+      <a class="newhere" href="why.html">New here? Read why follow-up coverage matters →</a></p>
+    <nav class="nav" aria-label="Site">
+      <a href="index.html" aria-current="page">Tracker</a>
+      <a href="why.html">Why it matters</a>
+      <a href="about.html">About the team</a>
+    </nav>
+  </div>
+  <div class="hside">
+    <svg id="tilemap" class="tilemap" viewBox="0 0 249 165" aria-hidden="true"></svg>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</header>
+  <div class="statusbar" aria-hidden="true"><span class="fipi0"></span><span class="fipi1"></span><span class="fipi2"></span><span class="fipi3"></span><span class="fipi4"></span></div>
+</div>
+
+<div class="controls">
+  <div class="seg" role="tablist" aria-label="Cancer type">
+    <button role="tab" data-view="combined" aria-selected="true">Combined</button>
+    <button role="tab" data-view="breast" aria-selected="false">Breast</button>
+    <button role="tab" data-view="lung" aria-selected="false">Lung</button>
+  </div>
+  <div class="findstate"><label for="statepick">Find my state</label>
+    <input id="statepick" type="search" list="statelist" placeholder="Type a state…" autocomplete="off">
+    <datalist id="statelist"></datalist></div>
+  <div class="tiles" id="tiles"></div>
+</div>
+
+<main class="grid">
+  <section class="card mapcard" aria-label="Map of state legislation status">
+    <div id="map"></div>
+    <div class="chips" id="chips" aria-label="Small states"></div>
+    <p class="note" id="mapnote"></p>
+  </section>
+
+  <aside class="card feed" aria-label="Legislative updates">
+    <div class="feedhead">
+      <h2>Legislative updates</h2>
+      <label class="check"><input type="checkbox" id="keyonly"> Key actions only</label>
+    </div>
+    <p class="filterline" id="filterline"></p>
+    <ol id="updates"></ol>
+  </aside>
+
+  <section class="card detail" id="detail" aria-live="polite">
+    <p class="muted">Select a state on the map or in the table to see its laws, bills and sources.</p>
+  </section>
+
+  <section class="card" id="federalcard">
+    <h2>Federal bills</h2>
+    <div id="federal"></div>
+  </section>
+
+  <section class="card wide">
+    <h2>All states</h2>
+    <div class="tablewrap">
+      <table id="table">
+        <thead><tr><th>State</th><th>Breast</th><th>Lung</th><th class="num">FIPI score (0–10)</th><th class="num">Tracked bills</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card wide about">
+    <h2>Method</h2>
+    <p>A law or bill is counted only if it explicitly requires insurance coverage of follow-up imaging after an
+      abnormal screening finding <strong>without patient cost-sharing</strong>. Measures that cover screening
+      only, permit cost-sharing, or concern outreach, research or education are excluded. A state whose only law covers supplemental screening
+      (for dense breasts or elevated risk) without follow-up imaging is shown in blue and earns no FIPI points.
+      A mandate that reaches only
+      Medicaid or public-employee plans is shown as a partial mandate (striped green) and earns no FIPI
+      points. These are the
+      eligibility criteria of the Follow-up Imaging Policy Index (FIPI) study presented at RSNA 2026.</p>
+    <p>The starting point is the study's manual review of enacted laws (<span id="asof"></span>). The tracker
+      then keeps the picture current: legislation is searched daily in full text through the LegiScan API, screened against the
+      criteria, and reviewed by a person before it appears. Newly enacted laws turn a state green and
+      update its FIPI score. Status, votes and sponsors update automatically, and every update links to
+      the official legislature record.</p>
+    <p class="muted">This tracker is a research tool, not legal advice. Coverage rules can depend on plan type and effective date; read the linked source.</p>
+  </section>
+</main>
+<footer class="site-foot">
+  <p>Bill status, sponsors and legislative actions are from the
+    <a href="https://legiscan.com/legiscan" target="_blank" rel="noopener">LegiScan API</a> by LegiScan LLC,
+    licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+    We filter, classify and review this data for the tracker; LegiScan does not endorse this site.</p>
+</footer>
+<div id="tip" role="tooltip" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="app.js?v=15"></script>
+</body>
+</html>

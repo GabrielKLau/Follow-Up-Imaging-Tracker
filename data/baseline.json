@@ -1,0 +1,2428 @@
+{
+ "as_of": "2026-03-01",
+ "source": "2026 RSNA FIPI data.xlsx",
+ "states": {
+  "AL": {
+   "abbr": "AL",
+   "name": "Alabama",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a) For purposes of this section, the following terms have the following meanings: (1) COST-SHARING REQUIREMENT. A deductible, copayment, coinsurance, or similar expense borne by the insured for a covered benefit under a health benefit plan. (2) DIAGNOSTIC BREAST EXAMINATION. A medically necessary and appropriate examination of the breast that includes, but is not limited to, contrast-enhanced mammography, diagnostic mammography, breast magnetic resonance imaging, breast ultrasound, or molecular breast imaging that is used to: a. Evaluate an abnormality seen or suspected from a screening examination for breast cancer; or b. Evaluate an abnormality detected by another means of examination. (3) HEALTH BENEFIT PLAN. a. Any plan, policy, or contract issued, delivered, or renewed in this state that provides health coverage that includes payment for hospitalization, physician care, treatment, surgery, therapy, HB300 Enrolled drugs, equipment, and any other medical expense, regardless of the following: 1. Whether the plan, policy, or contract is provided by a health care insurer; health maintenance organization established under Chapter 21A of Title 27, Code of Alabama 1975; health care services plan established under Chapter 20 of Title 10A, Code of Alabama 1975; a nonprofit agricultural organization that provides health benefits to its members under Chapter 33 of Title 2, Code of Alabama 1975; or any other entity that pays for, purchases, or reimburses for health care services. 2. Whether the plan is for a group or an individual. b. The term does not include accident-only, specified disease, individual hospital indemnity, credit, dental-only, Medicare supplement, long-term care, disability income, or other limited benefit health insurance policies, or coverage issued as supplemental to liability insurance, workers' compensation, or automobile medical payment insurance. (4) SUPPLEMENTAL BREAST EXAMINATION. A medically necessary and appropriate examination of the breast that includes, but is not limited to, contrast-enhanced mammography, breast magnetic resonance imaging, breast ultrasound, or molecular breast imaging that is used to screen for breast cancer when there is no abnormality seen or suspected, based on personal or family medical history or additional factors that increase the risk of breast cancer, including dense tissue, on the recommendation of a physician. (b) A health benefit plan that pays for, purchases, or HB300 Enrolled furnishes health care services to individuals who reside in this state, and which provides coverage for a supplemental breast examination or a diagnostic breast examination, may not impose any cost-sharing requirement on an enrollee for a supplemental breast examination or diagnostic breast examination.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1944937"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "AK": {
+   "abbr": "AK",
+   "name": "Alaska",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section 1. AS 21.42.375(e) is amended to read:\n(e) In this section,\n(1) \"diagnostic breast examination\" means an examination of the breast using contrast-enhanced mammography, diagnostic mammography, breast magnetic resonance imaging, breast ultrasound, or other equipment dedicated specifically for mammography conducted to evaluate an abnormality\n(A) detected or suspected in a screening examination for breast cancer; or\n(B) detected by another means of examination;\n(2) \"low-dose mammography screening\" and \"mammogram\" mean the X-ray examination of the breast using equipment dedicated specifically for HB0285a -1- HB 285 mammography, including the X-ray tube, filter, compression device, screens, films, and cassettes, with an average radiation exposure delivery of less than one rad mid-breast, with two views for each breast;\n(3) \"supplemental breast examination\" means an examination of the breast using contrast-enhanced mammography, diagnostic mammography, breast magnetic resonance imaging, breast ultrasound, or other equipment dedicated specifically for mammography conducted based on\n(A) the insured's personal or family medical history of breast cancer; or\n(B) other factors that may increase the insured's risk of breast cancer.\n* Sec. 2. AS 21.42.375 is amended by adding a new subsection to read:\n(f) Except as necessary to qualify a plan as a high deductible health plan eligible for a health savings account tax deduction under 26 U.S.C. 223 (Internal Revenue Code), a health care insurer that offers, issues, delivers, or renews a healthcare insurance plan in the individual or group market in the state that provides coverage for mammography screening, diagnostic breast examinations, and\nsupplemental breast examinations may not impose cost sharing, a deductible, coinsurance, a copayment obligation, or another similar out-of-pocket expense on an insured for coverage of a low-dose mammography screening, diagnostic breast examination, or supplemental breast examination.",
+    "source_urls": [
+     "https://legiscan.com/AK/text/HB285/id/2898289"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "AZ": {
+   "abbr": "AZ",
+   "name": "Arizona",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "AR": {
+   "abbr": "AR",
+   "name": "Arkansas",
+   "fipi": {
+    "composite": 4,
+    "breast": 3,
+    "lung": 1
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "SECTION 1.\nArkansas Code \u00a7 23-79-140(a), concerning the definitions used for coverage for mammograms and breast ultrasounds, is amended to add an additional subdivision to read as follows:\n\n(11)(A) \"Supplemental breast examination\" means a medically necessary and appropriate examination of the breast, according to National Comprehensive Cancer Network Guidelines, that is: (i) Used to screen for breast cancer when there is no abnormality seen or suspected; and (ii) Based on personal or family medical history or additional factors that increase the individual's risk of breast cancer, including heterogeneously or extremely dense breasts. (B) \"Supplemental breast examination\" includes without limitation: (i) An examination using contrast-enhanced mammography; (ii) Breast magnetic resonance imaging; (iii) Breast ultrasound; or 02-17-2025 11:19:34 ANS166 As Engrossed: S2/17/25 SB123 (iv) Molecular breast imaging.\n\nSECTION 2.\nArkansas Code \u00a7 23-79-140(e)(3), concerning an insured's cost-sharing requirements for coverage for diagnostic breast examinations for breast cancer, is amended to read as follows:\n\n(3) A healthcare insurer shall ensure that an individual's cost- sharing requirement under a health benefit plan that is applicable to a provides coverage for diagnostic breast examination for breast cancer, including breast magnetic resonance imaging, is no less favorable than the cost-sharing requirement that is applicable to a screening examination for breast cancer examinations, examinations for breast cancer, and supplemental breast examinations shall not impose any cost-sharing requirements. /s/G. Leding APPROVED: 4/14/25 02-17-2025 11:19:34 ANS166",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1805868"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "23-79-2903. Coverage for lung cancer screenings.\n(a) On and after January 1, 2026, a health benefit plan that is offered, issued, renewed, delivered, or extended in this state shall provide coverage for lung cancer screenings and follow-up healthcare services according to American Cancer Society guidelines.\n(b) The coverage for lung cancer screenings under subsection (a) of this section:\n(1) Is not subject to an annual deductible, copayment, or coinsurance limit as established for other covered benefits under a health benefit plan; and\n(2) Does not diminish or limit benefits otherwise allowable under a health benefit plan.",
+    "source_urls": [
+     "https://arkleg.state.ar.us/Bills/Detail?id=hb1316&ddBienniumSession=2025%2F2025R"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "CA": {
+   "abbr": "CA",
+   "name": "California",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "CO": {
+   "abbr": "CO",
+   "name": "Colorado",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "NOTWITHSTANDING OTHER COVERAGE PROVISIONS OF SUBSECTION (18)(b.5)(I) OF THIS SECTION, A POLICY OR CONTRACT SUBJECT TO THIS SUBSECTION (18) MUST COVER AN ANNUAL BREAST CANCER SCREENING USING THE APPROPRIATE NONINVASIVE IMAGING MODALITY OR COMBINATION OF MODALITIES RECOGNIZED BY THE AMERICAN COLLEGE OF RADIOLOGY OR THE NATIONAL COMPREHENSIVE CANCER NETWORK, OR THEIR SUCCESSOR ENTITIES, FOR ALL INDIVIDUALS POSSESSING AT LEAST ONE RISK FACTOR FOR BREAST CANCER, INCLUDING: (A) A FAMILY HISTORY OF BREAST CANCER; (B) BEING FORTY YEARS OF AGE OR OLDER ; OR (C) AN INCREASED LIFETIME RISK OF BREAST CANCER DETERMINED BY A RISK FACTOR MODEL, SUCH AS TYRER-CUZICK, BRCAPRO, OR GAIL, OR BY OTHER CLINICALLY APPROPRIATE RISK ASSESSMENT MODELS\n\nTHE COVERAGE REQUIRED PURSUANT TO THIS SUBSECTION (18)(b.5) MUST COVER THE FOLLOWING SERVICES, WITHOUT COST-SHARING REQUIREMENTS, INCLUDING DEDUCTIBLES, COINSURANCE, COPAYMENTS, OR ANY MAXIMUM LIMITATION ON THE APPLICATION OF SUCH DEDUCTIBLES, COINSURANCE, OR COPAYMENTS OR SIMILAR OUT-OF-POCKET EXPENSES: (A) A family history of breast cancer BREAST CANCER SCREENING STUDIES; (B) Being forty years of age or older; or DIAGNOSTIC EXAMINATIONS OF THE BREAST THAT ARE MEDICALLY NECESSARY AND APPROPRIATE, IN ACCORDANCE WITH THE NATIONAL COMPREHENSIVE CANCER NETWORK GUIDELINES, INCLUDING SUCH AN EXAMINATION USING CONTRAST-ENHANCED MAMMOGRAPHY, DIAGNOSTIC MAMMOGRAPHY, BREAST MAGNETIC RESONANCE IMAGING, BREAST ULTRASOUND, OR MOLECULAR BREAST IMAGING ; AND SUPPLEMENTAL EXAMINATIONS OF THE BREAST THAT ARE MEDICALLY NECESSARY AND APPROPRIATE, IN ACCORDANCE WITH THE NATIONAL COMPREHENSIVE CANCER NETWORK GUIDELINES, INCLUDING SUCH AN EXAMINATION USING CONTRAST-ENHANCED MAMMOGRAPHY, BREAST MAGNETIC RESONANCE IMAGING, BREAST ULTRASOUND, OR MOLECULAR BREAST IMAGING. (V) IF APPLICATION OF THIS SUBSECTION (18) WOULD MAKE A COVERED PERSON'S HEALTH SAVINGS ACCOUNT CONTRIBUTIONS INELIGIBLE UNDER SECTION 223 OF THE FEDERAL \"INTERNAL REVENUE CODE OF 1986\", U.S.C. SEC. 223, THIS SUBSECTION (18) APPLIES TO THE DEDUCTIBLE APPLICABLE TO THE COVERED PERSON'S HEALTH BENEFIT PLAN AFTER THE COVERED PERSON HAS SATISFIED THE MINIMUM DEDUCTIBLE AMOUNT UNDER U.S.C. SEC. 223; EXCEPT THAT, WITH RESPECT TO ITEMS OR SERVICES THAT ARE PREVENTIVE CARE PURSUANT TO 26 U.S.C. SEC. 223 (c)(2)(C), THIS SUBSECTION (18) APPLIES, REGARDLESS OF WHETHER THE MINIMUM DEDUCTIBLE UNDER 26 U.S.C. SEC. 223 HAS BEEN SATISFIED. (c) As used in this subsection (18): (III.5) \"Breast cancer screening study\" and \"breast imaging\" mean: (B) A mammogram using a OR OTHER noninvasive imaging modality or modalities, as recommended by the medical provider; or",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1886137"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "CT": {
+   "abbr": "CT",
+   "name": "Connecticut",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(A) A baseline mammogram, which may be provided by breast tomosynthesis at the option of the [woman] insured covered under the\npolicy, for [any woman] an insured who is: [thirty-five]\n(i) Thirty-five to thirty-nine years of age, inclusive; [and] or\n(ii) Younger than thirty-five years of age if the insured is believed to be at increased risk for breast cancer due to:\n(I) A family history of breast cancer;\n(II) Positive genetic testing for the harmful variant of breast cancer gene one, breast cancer gene two or any other gene variant that materially increases the insured's risk for breast cancer;\n(III) Prior treatment for a childhood cancer if the course of treatment for the childhood cancer included radiation therapy directed at the chest; or\n(IV) Other indications as determined by the insured's physician, advanced practice registered nurse, physician assistant, certified nurse midwife or other medical provider; and\n(B) [a mammogram] Mammograms, which may be provided by breast tomosynthesis at the option of the [woman] insured covered under the policy, every year for [any woman] an insured who is: [forty]\n(i) Forty years of age or older; [.] or\n(ii) Younger than forty years of age if the insured is believed to be at increased risk for breast cancer due to:\n(I) A family history, or prior personal history, of breast cancer;\n(II) Positive genetic testing for the harmful variant of breast cancer gene one, breast cancer gene two or any other gene that materially increases the insured's risk for breast cancer;\n(III) Prior treatment for a childhood cancer if the course of treatment for the childhood cancer included radiation therapy directed at the chest; or\n(IV) Other indications as determined by the insured's physician,advanced practice registered nurse, ph\n\nSuch policy shall provide additional benefits for:\n(A) Comprehensive [ultrasound screening] diagnostic and screening ultrasounds of an entire breast or breasts if:\n(i) A mammogram demonstrates heterogeneous or dense breast tissue based on the Breast Imaging Reporting and Data System established by the American College of Radiology; or\n(ii) [a woman] An insured is believed to be at increased risk for breast cancer due to:\n(I) A family history or prior personal history of breast cancer; [,]\n(II) [positive] Positive genetic testing [, or (III) other] for the harmful variant of breast cancer gene one, breast cancer gene two or any other gene that materially increases the insured's risk for breast cancer;\n(III) Prior treatment for a childhood cancer if the course of treatment for the childhood cancer included radiation therapy directed at the chest; or\n(IV) Other indications as determined by [a woman's] the insured's physician, [physician assistant or advanced practice registered nurse; or\n(iii) such screening is recommended by a woman's treating physician for a woman who (I) is forty years of age or older, (II) has a family history or prior personal history of breast cancer, or (III) has a prior personal history of breast disease diagnosed through biopsy as benign; and] advanced practice registered nurse, physician assistant, certified nurse midwife or other medical provider;\n(B) [Magnetic] Diagnostic and screening magnetic resonance imaging of an entire breast or breasts: [in]\n(i) In accordance with guidelines established by the American Cancer Society [.] for an insured who is thirty-five years of age or older; or\n(ii) If an insured is younger than thirty-five years of age and believed to be at increased risk for breast cancer due to:\n(I) A family history, or prior personal history, of breast cancer;\n(II) Positive genetic testing for the harmful variant of breast cancer gene one, breast cancer gene two or any other gene that materially increases the insured's risk for breast cancer;\n(III) Prior treatment for a childhood cancer if the course of treatment for the childhood cancer included radiation therapy directed at the chest; or\n(IV) Other indications as determined by the insured's physician, advanced practice registered nurse, physician assistant, certified nurse midwife or other medical provider;\n(C) Breast biopsies;\n(D) Prophylactic mastectomies for an insured who is believed to be at increased risk for breast cancer due to positive genetic testing for the harmful variant of breast cancer gene one, breast cancer gene two or any other gene that materially increases the insured's risk for breast cancer;\nand\n(E) Breast reconstructive surgery for an insured who has undergone:\n(i) A prophylactic mastectomy; or\n(ii) A mastectomy as part of the insured's course of treatment for breast cancer.\n(c) Benefits under this section shall be subject to any policy provisions that apply to other services covered by such policy, except that no such policy shall impose a coinsurance, copayment, deductible or other out- of-pocket expense for such benefits. The provisions of this subsection shall apply to a high deductible health plan, as that term is used in subsection (f) of section 38a-493, to the maximum extent permitted by federal law, except if such plan is used to establish a medical savings account or an Archer MSA pursua nt to Section 220 of the Internal Revenue Code of 1986 or any subsequent corresponding internal revenue code of the United States, as amended from time to time, or a health savings account pursuant to Section 223 of said Internal Revenue Code, as amended from time to time, the provisions of this subsection shall apply to such plan to the maximum extent that (1) is permitted by federal law, and (2) does not disqualify such account for the deduction allowed under said Section 220 or 223, as applicable.",
+    "source_urls": [
+     "https://law.justia.com/codes/connecticut/title-38a/chapter-700c/section-38a-530/"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 1
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "DE": {
+   "abbr": "DE",
+   "name": "Delaware",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "\u00a7 3552A. Supplemental and diagnostic breast examinations.\n\n(a) As used in this section:\n\n(1) \u201cBreast magnetic resonance imaging\u201d or \u201cbreast MRI\u201d means a diagnostic tool, including standard and abbreviated breast MRI, that uses radio waves and magnets to produce detailed images of structures within the breast. A breast MRI may be used as a screening tool when clinically indicated, including after indeterminant results from a mammogram that requires additional evaluation and for those at high risk for breast cancer.\n\n(2) \u201cBreast ultrasound\u201d means a noninvasive diagnostic tool that uses high-frequency sound waves and their echoes to produce detailed images of structures within the breast. A breast ultrasound may be used as a screening tool when clinically indicated, including after indeterminant results from a mammogram that requires additional evaluation and for those at high risk for breast cancer.\n\n(3) \u201cCost-sharing requirement\u201d means a deductible, coinsurance, or copayment and any maximum limitation on the application of such a deductible, coinsurance, copayment, or similar out-of-pocket expense.\n\n(4) \u201cDiagnostic breast examination\u201d means a medically necessary and clinically appropriate examination of the breast, including such examination using breast MRI, breast ultrasound, or mammogram, that is used for either of the following:\n\na. To evaluate an abnormality seen or suspected from a screening examination for breast cancer.\n\nb. To evaluate an abnormality detected by another means of examination.\n\n(5) \u201cMammogram\u201d means a diagnostic or screening mammography exam using a low-dose X-ray to produce an image of the breast.\n\n(6) \u201cSupplemental breast screening examination\u201d means a medically necessary and clinically appropriate examination of the breast, including such examination using breast MRI, breast ultrasound, or mammogram, that is used for either of the following:\n\na. To screen for breast cancer when there is no abnormality seen or suspected in the breast.\n\nb. Based on personal or family medical history or additional factors that may increase the individual\u2019s risk of breast cancer.\n\n(b) All group and blanket health insurance policies which are delivered or issued for delivery in this State by any health insurer or health service corporation and which provide benefits for outpatient services shall provide coverage for diagnostic breast examinations and supplemental breast screening examinations. The terms of such coverage, including cost-sharing requirements, shall be no less favorable than the cost-sharing requirements applicable to screening mammography for breast cancer.\n\n(c) This section does not apply to any of the following:\n\n(1) A high deductible health plan if providing coverage under subsection (b) of this section would cause the plan to fail to be treated as a high deductible health plan under \u00a7 223(c)(2) of the Internal Revenue Code.\n\n(2) A specified accident, specified disease, hospital indemnity, Medicare supplement, long-term care or other limited benefit health insurance policy.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1533138"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "FL": {
+   "abbr": "FL",
+   "name": "Florida",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(2) DEFINITIONS.\u2014As used in ss. 110.123-110.1239, the term:\n(a) \u201cCost-sharing requirement\u201d means an insured\u2019s deductible, coinsurance, copayment, or similar out-of-pocket\nexpense.\n(c) \u201cDiagnostic breast examination\u201d means a medically necessary and appropriate imaging examination of the breast, as\ndetermined in accordance with the most recent applicable guidelines of the National Comprehensive Cancer Network,\nincluding, but not limited to, an examination using diagnostic mammography, breast magnetic resonance imaging, or breast\nultrasound, which is used to evaluate an abnormality that is seen or suspected during a screening examination for breast\ncancer.\n(s) \u201cSupplemental breast examination\u201d means a medically necessary and appropriate imaging examination of the breast,\nconducted in accordance with the most recent applicable guidelines of the National Comprehensive Cancer Network,\nincluding, but not limited to, an examination using breast magnetic resonance imaging or breast ultrasound, which is:\n1. Used to screen for breast cancer when there is no abnormality seen or suspected; and\n2. Based on personal or family medical history or additional factors that may increase the person\u2019s risk of breast cancer.\n110.12303 State group insurance program; additional benefits; price transparency program; reporting.\u2014\n(5) In any contract or plan for state employee health benefits which provides coverage for diagnostic breast examinations or supplemental breast examinations, the state group insurance program may not impose any cost-sharing requirement upon an enrollee. If, under federal law, the application of this subsection would result in health savings account ineligibility under s. 223 of the Internal Revenue Code, the prohibition under this subsection applies only to health savings account qualified high-deductible health plans with respect to the deductible of such a plan after the person has satisfied the minimum deductible under s. 223 of the Internal Revenue Code, except with respect to items or services that are preventive care pursuant to s. 223(c)(2)(C) of the Internal Revenue Code, in which case the requirements of s. 223(c)(2)(A) of the Internal Revenue Code apply regardless of whether the minimum deductible under s. 223 of the Internal Revenue Code has been satisfied.",
+    "source_urls": [
+     "https://www.flsenate.gov/Session/Bill/2025/158"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "GA": {
+   "abbr": "GA",
+   "name": "Georgia",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a) As used in this Code section, the term:\n(1) 'Breast magnetic resonance imaging' or 'breast MRI' means a diagnostic and screening tool, including standard and abbreviated breast MRI, that uses radio waves and\nmagnets to produce detailed images of structures within the breast.\n(2) 'Breast ultrasound' means a noninvasive diagnostic and screening tool that uses high-frequency sound waves and their echoes to produce detailed images of structures\nwithin the breast.\n(3) 'Cost-sharing requirement' means a deductible, coinsurance, or copayment and any maximum limitation on the application of such a deductible, coinsurance, copayment, or\nsimilar out-of-pocket expense.\n(4) 'Diagnostic breast examination' means a medically necessary and clinically appropriate, as defined by the guidelines established by the National Comprehensive Cancer Network as of January 1, 2022, examination of the breast, including such examination using breast MRI, breast ultrasound, or mammogram, that is:\n(A) Used to evaluate an abnormality seen or suspected from a screening examination for breast cancer; or\n(B) Used to evaluate an abnormality detected by another means of examination.\n(5) 'Health benefit policy' means any individual or group plan, policy, or contract for health care services issued, delivered, issued for delivery, executed, or renewed by an insurer in this state.\n(6) 'Insurer' means any person, corporation, or other entity authorized to provide health benefit policies under this title.\n(7) 'Mammogram' means a diagnostic or screening mammography exam using a low-dose X-ray to produce an image of the breast.\n(8) 'Supplemental breast screening examination' means a medically necessary and clinically appropriate, as defined by the guidelines established by the National Comprehensive Cancer Network as of January 1, 2022, examination of the breast, including such examination using breast MRI, breast ultrasound, or mammogram, that is:\n(A) Used to screen for breast cancer when there is no abnormality seen or suspected in the breast; or\n(B) Based on personal or family medical history or additional factors that may increase the individual's risk of breast cancer.\n(b) A health benefit policy that provides coverage for diagnostic examinations for breast cancer shall include provisions that ensure that the cost-sharing requirements applicable to diagnostic and supplemental breast screening examinations are no less favorable than the cost-sharing requirements applicable to screening mammography for breast cancer.\n(c) Nothing in this Code section shall be construed to preclude existing utilization review provided under Chapter 46 of this title.\n(d) If under federal law application of subsection (b) of this Code section would result in Health Savings Account ineligibility under Section 223 of the Internal Revenue Code, such\ncost-sharing requirement shall apply only for Health Savings Account qualified High Deductible Health Plans with respect to the deductible of such plan after the enrollee has satisfied the minimum deductible under Section 223 of the Internal Revenue Code, except with respect to items or services that are preventive care pursuant to Section 223(c)(2)(C) of the Internal Revenue Code, in which case the requirements of subsection (b) of this Code section shall apply regardless of whether the minimum deductible under Section 223 of the Internal Revenue Code has been satisfied.",
+    "source_urls": [
+     "https://legiscan.com/GA/text/HB315/id/2762732"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "HI": {
+   "abbr": "HI",
+   "name": "Hawaii",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "ID": {
+   "abbr": "ID",
+   "name": "Idaho",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": false,
+    "law_text": "SECTION 1.\nThat Title 39, Idaho Code, be, and the same is hereby amended by the addition thereto of a NEW CHAPTER, to be known and designated as Chap- ter 23, Title 39, Idaho Code, and to read as follows: CHAPTER 23 BREAST CANCER SCREENING 39-2301. BREAST CANCER SCREENING. (1) As used in this section, \"supplemental breast screening\" means a medically necessary and clinically appropriate examination of the breast using either standard or abbreviated magnetic resonance imaging, contrast mammogram imaging, or, if such imag- ing is not possible, ultrasound if recommended by the treating physician to screen for breast cancer when there is no abnormality seen or suspected in the breast. (2) This section shall apply only to a health benefit plan that provides benefits for medical or surgical expenses incurred as a result of a health condition, accident, or sickness, including an individual, group, blanket, or franchise insurance policy or insurance agreement, a group hospital ser- vice contract, or an individual group evidence of coverage or similar cover- age document that is offered by: (a) An insurance company; (b) A group hospital service corporation operating pursuant to chapter 34, title 41, Idaho Code; (c) A managed care organization operating pursuant to chapter 39, title 41, Idaho Code; (d) A fraternal benefit society operating pursuant to chapter 32, title 41, Idaho Code; or (e) An exchange operating pursuant to chapter 61, title 41, Idaho Code. (3) Notwithstanding any other provision of law to the contrary, a group or individual health benefit plan providing benefits for medical or surgi- cal expenses incurred as a result of a health condition, accident, or sick- ness shall also provide coverage for breast imaging. The minimum coverage required shall include all costs associated with one (1) supplemental breast screening every year in instances where a person is believed to be at an in- creased risk of breast cancer due to: (a) Personal history of atypical breast histologies; (b) Personal history or family history of breast cancer; (c) Genetic predisposition for breast cancer; (d) Prior therapeutic thoracic radiation therapy; (e) Lifetime risk of breast cancer of greater than twenty percent (20%) according to risk assessment tools based on family history; (f) Extremely dense breast tissue based on breast composition cate- gories of the breast imaging and reporting data system established by the American college of radiology; or (g) Heterogeneously dense breast tissue based on breast composition categories with any one (1) of the following risk factors: (i) Personal history of BRCA1 or BRCA2 gene mutations; (ii) First-degree relative with a BRCA1 or BRCA2 gene mutation who has not undergone genetic testing; (iii) Prior therapeutic thoracic radiation therapy from ten (10) to thirty (30) years of age; or (iv) Personal history of Li-Fraumeni syndrome, Cowden syndrome, or Bannayan-Riley-Ruvalcaba syndrome, or a first-degree relative with one (1) of these syndromes. (4) Nothing in this section shall be construed as to prevent the appli- cation of deductible, copayment, or coinsurance provisions contained in the policy or plan for breast imaging in excess of the minimum coverage required.\n\nSECTION 2.\nAn emergency existing therefor, which emergency is hereby declared to exist, this act shall be in full force and effect on and after January 1, 2026.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1817622"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "IL": {
+   "abbr": "IL",
+   "name": "Illinois",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "The coverage shall be as follows:\n\n(1) A baseline mammogram for women 35 to 39 years of age.\n\n(2) An annual mammogram for women 40 years of age or older.\n\n(3) A mammogram at the age and intervals considered medically necessary by the woman\u2019s health care provider for women under 40 years of age who have a family history of breast cancer, prior personal history of breast cancer, positive genetic testing, or other risk factors.\n\n(4) For a group policy of accident and health insurance that is amended, delivered, issued, or renewed on or after January 1, 2020 (the effective date of Public Act 101-580), a comprehensive ultrasound screening of an entire breast or breasts if a mammogram demonstrates heterogeneous or dense breast tissue, or when medically necessary as determined by a physician licensed to practice medicine in all of its branches, an advanced practice registered nurse, or a physician assistant.\n\n(4.5) For a group policy of accident and health insurance that is amended, delivered, issued, or renewed on or after the effective date of this amendatory Act of the 103rd General Assembly, molecular breast imaging (MBI) and magnetic resonance imaging of an entire breast or breasts if a mammogram demonstrates heterogeneous or dense breast tissue, or when medically necessary as determined by a physician licensed to practice medicine in all of its branches, an advanced practice registered nurse, or a physician assistant.\n\n(5) For a group policy of accident and health insurance that is amended, delivered, issued, or renewed on or after January 1, 2020 (the effective date of Public Act 101-580), a diagnostic mammogram when medically necessary, as determined by a physician licensed to practice medicine in all of its branches, an advanced practice registered nurse, or a physician assistant.\n\nA policy subject to this subsection shall not impose a deductible, coinsurance, copayment, or any other cost-sharing requirement on the coverage provided; except that this sentence does not apply to coverage of diagnostic mammograms to the extent such coverage would disqualify a high-deductible health plan from eligibility for a health savings account pursuant to Section 223 of the Internal Revenue Code (26 U.S.C. \u00a7 223).",
+    "source_urls": [
+     "https://www.ilga.gov/Legislation/BillStatus?DocNum=4180&GAID=17&GA=103&DocTypeID=HB&LegID=150729&SessionID=112"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "IN": {
+   "abbr": "IN",
+   "name": "Indiana",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "IA": {
+   "abbr": "IA",
+   "name": "Iowa",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section 1. NEW SECTION. 514C.4A Supplemental and diagnostic breast examinations.\n        1.        As used in this section, unless the context otherwise requires:\n\na. \u201cBreast magnetic resonance imaging\u201d or \u201cbreast MRI\u201d means an examination of a breast, following administration of intravenous contrast, using a powerful magnetic field, radio waves, and a computer to produce detailed pictures of the structures within the breast.\n\nb. \u201cBreast ultrasound\u201d means a noninvasive examination of a breast using high-frequency sound waves to produce detailed images of the breast.\n\nc. \u201cCovered person\u201d means a policyholder, subscriber, or other person participating in a policy, contract, or plan that provides for third-party payment or prepayment of health or medical expenses.\n\nHouse File 2489, p. 2\n\nd. \u201cDiagnostic breast examination\u201d means a medically necessary and appropriate examination of the breast that may include a diagnostic mammogram, breast magnetic resonance imaging, breast ultrasound, or other breast imaging, and that is performed for any of the following reasons: (1) To evaluate an abnormality seen or suspected during a screening examination for breast cancer. (2) To evaluate an abnormality detected by another means of examination.\n\ne. \u201cDiagnostic mammogram\u201d means a detailed examination of a breast abnormality using X-ray.\n\nf. \u201cHealthcare professional\u201d means the same as defined in section 514J.102.\n\ng. \u201cHealthcare services\u201d means services for the diagnosis, prevention, treatment, cure, or relief of a health condition, illness, injury, or disease.\n\nh. \u201cScreening mammogram\u201d means an examination of a breast that aids in the early detection and diagnosis of breast abnormalities including breast cancer.\n\ni. \u201cSupplemental breast examination\u201d means a medically necessary and appropriate examination of the breast that may include breast magnetic resonance imaging, breast ultrasound, contrast-enhanced mammography, or examination for dense breast tissue as described by the breast imaging reporting and data system of the American College of Radiology, and that is performed to screen for breast cancer when there is no abnormality seen or suspected and based on an individual\u2019s personal or family medical history, or additional factors that may increase the individual\u2019s risk of breast cancer.\n        2.        a. Notwithstanding the uniformity of treatment requirements of section 514C.6, a policy, contract, or plan providing for third-party payment or prepayment of health or medical expenses shall provide coverage for supplemental breast examinations and diagnostic breast examinations.\n\nb. Coverage required under this section shall not be less favorable than coverage a health carrier offers for screening mammograms.\n        3.        a. This section applies to the following classes of third-party payment provider contracts, policies, or plans delivered, issued for delivery, continued, or renewed in this state on or after January 1, 2025:\n\nHouse File 2489, p. 3\n\n(1) Individual or group accident and sickness insurance providing coverage on an expense-incurred basis. (2) An individual or group hospital or medical service contract issued pursuant to chapter 509, 514, or 514A. (3) An individual or group health maintenance organization contract regulated under chapter 514B. (4) A plan established for public employees pursuant to chapter 509A.\n\nb. This section shall not apply to accident-only, specified disease, short-term hospital or medical, hospital confinement indemnity, credit, dental, vision, Medicare supplement, long-term care, basic hospital and medical-surgical expense coverage as defined by the commissioner of insurance, disability income insurance coverage, coverage issued as a supplement to liability insurance, workers\u2019 compensation or similar insurance, or automobile medical payment insurance.\n        4.        The commissioner of insurance may adopt rules pursuant to chapter 17A to administer this section.",
+    "source_urls": [
+     "https://legiscan.com/IA/bill/HF2489/2023"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "KS": {
+   "abbr": "KS",
+   "name": "Kansas",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "KY": {
+   "abbr": "KY",
+   "name": "Kentucky",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "As used in this section:\n\n(a) \u201cCost-sharing requirements\u201d means any deductible, coinsurance, or copayment, or any out-of-pocket expense imposed upon an insured that is similar to such expenses.\n\n\u201cDiagnostic breast examination\u201d means a medically necessary and appropriate examination of the breast that is used to evaluate an abnormality seen or suspected from, or detected by, a screening examination for breast cancer or another means of examination. As used in this paragraph, \u201cexamination of the breast\u201d includes but is not limited to an examination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound.\n\n(b) \u201cMammogram\u201d means an X-ray examination of the breast, with at least two views of each breast and with an average radiation exposure at the current recommended level as set forth in guidelines of the American College of Radiology, using equipment dedicated specifically for mammography, including but not limited to the X-ray tube, filter, compression device, screens, film, and cassettes, as well as digital mammography and breast tomosynthesis.\n\n\u201cBreast tomosynthesis\u201d means a radiologic procedure that involves the acquisition of projection images over the stationary breast to produce cross-sectional digital three-dimensional images of the breast.\n\n(c) \u201cSupplemental breast examination\u201d means a medically necessary and appropriate examination of the breast that is used to screen for breast cancer when there is no abnormality seen or suspected and is based on personal or family medical history or additional factors that may increase the individual\u2019s risk of breast cancer. As used in this paragraph, \u201cexamination of the breast\u201d includes but is not limited to a mammogram or an examination using breast magnetic resonance imaging or breast ultrasound.\n\n(2) Subject to subsection (3) of this section and except as otherwise provided in subsection (4), a health insurance policy, plan, certificate, or contract issued, renewed, or delivered in this Commonwealth that provides coverage on an expense-incurred basis for surgical services for a mastectomy shall also provide coverage for:\n\n(a) Low-dose mammography screening for persons who have no sign or symptom of breast cancer, upon self-referral or referral by a health care practitioner acting within the scope of the practitioner\u2019s licensure.\n\nThe coverage required under this subparagraph may be limited to the following:\nOne mammogram for persons ages 35 through 39;\nOne mammogram every two years for persons ages 40 through 49;\nOne mammogram per year for persons age 50 and over;\nA benefit of fifty dollars ($50) per screening mammogram.\n\nThe coverage required under this subparagraph shall be subject to deductibles and coinsurance that are no less favorable than the deductibles and coinsurance for coverage for physical illness generally.\n\nMammograms shall also be covered for any insured, regardless of age, who has been diagnosed with breast disease, upon referral by a health care practitioner acting within the scope of the practitioner\u2019s licensure. Coverage under this subparagraph shall be subject to the same annual deductibles or coinsurance established for other coverages within the policy.\n\nA policy, plan, certificate, or contract shall not impose any cost-sharing requirements for any diagnostic breast examination or supplemental breast examination that is covered under the policy, plan, certificate, or contract.\n\nA policy, plan, certificate, or contract shall provide any coverage not otherwise required under this section, including coverage with respect to restrictions on cost-sharing requirements for breast examinations, including mammograms, that is required under federal law.\n\nThe coverage required under subsection (2)(a) of this section shall be limited to mammograms that are:\nPerformed by a radiographer licensed under KRS Chapter 311B or certified by the American Registry of Radiologic Technologists;\nInterpreted by a qualified radiologist;\nPerformed under the direction of a person licensed to practice medicine and certified by the American Board of Radiology;\nPerformed by a facility and ordered by a health care practitioner that follow federal laws relating to notification of mammography exam results and maintenance of medical records;\nPerformed by a facility that meets current criteria of the American College of Radiology Mammography Accreditation Program; and\nPerformed on dedicated equipment that meets the guidelines established by the American College of Radiology.\n\n(4) If the application of any requirement of subsection (2) of this section would be the sole cause of a health insurance policy, plan, certificate, or contract failing to qualify as a Health Savings Account-qualified High Deductible Health Plan under 26 U.S.C. sec. 223, as amended, then the requirement shall not apply to that policy, plan, certificate, or contract until the minimum deductible under 26 U.S.C. sec. 223 is satisfied.",
+    "source_urls": [
+     "https://apps.legislature.ky.gov/recorddocuments/bill/24RS/hb115/bill.pdf"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "LA": {
+   "abbr": "LA",
+   "name": "Louisiana",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "\u00a71028.2. Required coverage for diagnostic imaging\n            A.(1) Any health coverage plan delivered or issued for delivery in this state shall include coverage for diagnostic imaging at the same level of coverage provided for the minimum mammography examination pursuant to R.S. 22:1028.\n            (2) The health coverage plan may require a referral by the treating physician based on medical necessity for the diagnostic imaging to be eligible for the coverage required pursuant to Paragraph (1) of this Subsection.\n            (3) Any coverage required pursuant to the provisions of this Section shall not be subject to any policy or health coverage plan deductible amount.\n            B. For purposes of this Section:\n            (1) \"Diagnostic imaging\" means a diagnostic mammogram, contrast-enhanced mammogram, breast magnetic resonance imaging, or breast ultrasound screening for breast cancer designed to evaluate an abnormality in the breast that is any of the following:\n            (a) Seen or suspected from a screening examination for breast cancer.\n            (b) Detected by another means of examination.\n            (c) Suspected based on the medical history or family medical history of the individual or additional factors that may increase the individual's risk of breast cancer.\n            (2) \"Health coverage plan\" means any hospital, health, or medical expense insurance policy, hospital or medical service contract, employee welfare benefit plan, contract, or other agreement with a health maintenance organization or a preferred provider organization, health and accident insurance policy, or any other insurance contract of this type in this state, including a group insurance plan, a self-insurance plan, and the Office of Group Benefits programs. \"Health coverage plan\" shall not include a plan providing coverage for excepted benefits as defined in R.S. 22:1061, limited benefit health insurance plans, and short-term policies that have a term of less than twelve months.\n            C. Any provision in a health insurance policy, benefit program, or health coverage plan delivered, renewed, issued for delivery, or otherwise contracted for in this state which is contrary to the provisions of this Section shall, to the extent of the conflict, be void.\n            Acts 2019, No. 119, \u00a71, eff. Jan, 1, 2021; Acts 2024, No. 174, \u00a71, eff. May 23, 2024.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1717939"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "ME": {
+   "abbr": "ME",
+   "name": "Maine",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "\u00a74237-A. Coverage for screening mammograms and diagnostic and supplemental breast examinations\n1.  Definition. \n1-A.  Definitions.  For the purposes of this section, unless the context otherwise indicates, the following terms have the following meanings.  \nA. \"Cost-sharing requirements\" means a deductible, coinsurance, copayment or out-of-pocket expense and any maximum limitation on the deductible, coinsurance, copayment or other out-of-pocket expense.   [PL 2023, c. 338, \u00a711 (NEW); PL 2023, c. 338, \u00a713 (AFF).]\nB. \"Diagnostic breast examination\" means a medically necessary examination of the breast, including an examination using diagnostic mammography, magnetic resonance imaging or ultrasound, that is:  \n(1) Used to evaluate an abnormality seen on or suspected from a screening mammogram; or  \n(2) Used to evaluate an abnormality detected by another means of examination.   [PL 2023, c. 338, \u00a711 (NEW); PL 2023, c. 338, \u00a713 (AFF).]\nC. \"Screening mammogram\" means a radiologic procedure that is provided to an asymptomatic individual for the purpose of early detection of breast cancer and that consists of 2 radiographic views per breast. A screening mammogram also includes an additional radiologic procedure recommended by a provider when the results of an initial radiologic procedure are not definitive.\nD. \"Supplemental breast examination\" means a medical examination of the breast, including an examination using diagnostic mammography, magnetic resonance imaging or ultrasound, to screen for breast cancer when there is no abnormality seen or suspected, but, based on personal or family medical history or other additional factors, the individual has an increased risk of breast cancer.\n2.  Required coverage.  All individual and group coverage subject to this chapter must provide coverage for screening mammograms performed by providers that meet the standards established by the Department of Health and Human Services rules relating to radiation protection. The policies must reimburse for screening mammograms performed at least once a year for women 40 years of age and over.  \n2-A.  No cost-sharing requirements.  All individual and group coverage subject to this chapter may not impose any cost-sharing requirements on a screening mammogram, diagnostic breast examination or supplemental breast examination performed by a provider in accordance with this section. This subsection does not apply to individual or group coverage offered for use with a health savings account unless the federal Internal Revenue Service determines that the requirements in this subsection are permissible in a high deductible health plan as defined in the federal Internal Revenue Code, Section 223(c)(2).",
+    "source_urls": [
+     "https://legislature.maine.gov/statutes/24-a/title24-Asec4237-A.html"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MD": {
+   "abbr": "MD",
+   "name": "Maryland",
+   "fipi": {
+    "composite": 7,
+    "breast": 3,
+    "lung": 4
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a) (1) In this section the following words have the meanings indicated. (2) (i) \u201cDiagnostic breast examination\u201d means a medically necessary and appropriate examination of the breast that is used to evaluate an abnormality that is: 1. seen or suspected from a prior screening examination for breast cancer; or 2. detected by another means of prior examination. (ii) \u201cDiagnostic breast examination\u201d includes an examination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound. (3) (i) \u201cSupplemental breast examination\u201d means a medically necessary examination of the breast that is used to screen for breast cancer when: 1. there is no abnormality seen or suspected from a prior examination; and 2. there is a personal or family medical history or additional factors that may increase an individual\u2019s risk of breast cancer. (ii) \u201cSupplemental breast examination\u201d includes an examination using breast magnetic resonance imaging or, breast ultrasound, OR IMAGE-GUIDED BREAST BIOPSY. (b) This section applies to: (1) insurers and nonprofit health service plans that provide coverage for diagnostic breast examinations or supplemental breast examinations under individual, group, or blanket health insurance policies or contracts that are issued or delivered in the State; and (2) health maintenance organizations that provide coverage for diagnostic breast examinations or supplemental breast examinations under individual or group contracts that are issued or delivered in the State. (c) (1) Except as provided in paragraph (2) of this subsection, an entity subject to this section may not impose a copayment, coinsurance, or deductible requirement on coverage for diagnostic breast examinations or supplemental breast examinations. (2) If an insured or enrollee is covered under a high-deductible health plan, as defined in 26 U.S.C. \u00a7 223, an entity subject to this section may subject diagnostic breast examinations or supplemental breast examinations to the deductible requirement of the high-deductible health plan. 15-860. (a) This section applies to: (1) insurers and nonprofit health service plans that provide hospital, medical, or surgical benefits to individuals or groups on an expense-incurred basis under health insurance policies or contracts that are issued or delivered in the State; and (2) health maintenance organizations that provide hospital, medical, or surgical benefits to individuals or groups under contracts that are issued or delivered in the State.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1699633"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 1
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(1) An entity subject to this section shall provide coverage for recommended LUNG CANCER SCREENING OR follow-up diagnostic imaging to assist in the diagnosis of lung cancer for individuals for which lung cancer screening OR WES MOORE, Governor FOLLOW-UP DIAGNOSTIC IMAGING is recommended by the U.S. Preventative Services Task Force. (2) The coverage required under paragraph (1) of this subsection: (I) shall include diagnostic ultrasound, magnetic resonance imaging, computed tomography, and image-guided biopsy; AND (II) MAY NOT BE SUBJECT TO A PRIOR AUTHORIZATION REQUIREMENT. (c) (1) Except as provided in paragraph (2) of this subsection, an entity subject to this section may not impose a copayment, coinsurance, or deductible requirement on coverage for lung cancer screening and diagnosis OR FOLLOW-UP DIAGNOSTIC IMAGING that is greater than the copay, coinsurance, or deductible requirement for breast cancer screening and OR diagnosis. (2) If an insured or enrollee is covered under a high-deductible health plan, as defined in 26 U.S.C. \u00a7 223, an entity subject to this section may subject LUNG CANCER SCREENING OR follow-up diagnostic lung imaging to the deductible requirement of the high-deductible health plan",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1699633"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 1,
+     "biopsy": 1
+    },
+    "modalities": {
+     "CT": true,
+     "PET": false
+    }
+   }
+  },
+  "MA": {
+   "abbr": "MA",
+   "name": "Massachusetts",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "\u201cCost sharing\u201d means a deductible, coinsurance, copayment, or any maximum limitation on the application of such deductible, coinsurance, copayment, or similar out-of-pocket expense.\n\n\u201cDiagnostic examinations for breast cancer\u201d means a medically necessary and appropriate examination to evaluate an abnormality in the breast that is seen or suspected from a screening examination for breast cancer, detected by another means of examination, or suspected based on the medical history or family medical history of the individual.\n\n\u201cExamination for breast cancer\u201d means an examination used to evaluate an abnormality in a breast using diagnostic mammography, digital breast tomosynthesis, breast magnetic resonance imaging, or breast ultrasound.\n\n\u201cHSA-qualified health insurance policy\u201d means a policy of individual or group health insurance coverage that satisfies the criteria for a high-deductible health plan under 26 U.S.C. \u00a7 223, as implemented and interpreted by the United States Department of the Treasury in the regulations and guidance in effect at the time the policy is issued.\n\n(b) Any subscription certificate under an individual or group medical service agreement delivered, issued, or renewed within the Commonwealth that provides coverage for screening mammograms shall provide coverage for diagnostic examinations for breast cancer, digital breast tomosynthesis screening, and medically necessary and appropriate screening with breast magnetic resonance imaging or screening breast ultrasound on a basis not less favorable than screening mammograms that are covered as medical benefits.\n\nThere shall be no increase in patient cost sharing for:\n(i) screening mammograms;\n(ii) digital breast tomosynthesis;\n(iii) screening breast magnetic resonance imaging;\n(iv) screening breast ultrasound; or\n(v) diagnostic examinations for breast cancer.\n\n(c)(1) Except as provided in paragraph (2), an HSA-qualified health insurance policy shall be exempt from any prohibition on cost-sharing requirements for a covered benefit required under any general or special law to the extent that the exemption is necessary to allow the policy to remain an HSA-qualified health insurance policy.",
+    "source_urls": [
+     "https://malegislature.gov/Bills/193/H4918"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MI": {
+   "abbr": "MI",
+   "name": "Michigan",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MN": {
+   "abbr": "MN",
+   "name": "Minnesota",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MS": {
+   "abbr": "MS",
+   "name": "Mississippi",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a)  \"Cost-sharing requirements\" means a deductible, coinsurance, copayment or similar out-of-pocket expense.\n          (b)  \"Diagnostic breast examinations\" means a medically necessary and appropriate (in accordance with National Comprehensive Cancer Network Guidelines) examination of the breast, including, but not limited to, such an examination using contrast-enhanced mammography, diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that is:\n               (i)  Used to evaluate an abnormality seen or suspected from a screening examination for breast cancer; or\n               (ii)  Used to evaluate an abnormality detected by another means of examination.\n          (c)  \"Supplemental breast examinations\" means a medically necessary and appropriate (in accordance with National Comprehensive Cancer Network Guidelines) examination of the breast, including, but not limited to, such an examination using contrast-enhanced mammography, diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that is:\n               (i)  Used to screen for breast cancer when there is no abnormality seen or suspected; and\n               (ii)  Based on personal or family medical history or additional factors that may increase the individual's risk of breast cancer.\n     (2)  If a group health plan, or a health insurance issuer offering group or individual health insurance coverage, provides benefits with respect to screening, diagnostic breast examinations and supplemental breast examinations furnished to an individual enrolled under such plan, such plan shall not impose any cost-sharing requirements for those services.\n     (3)  If under federal law, application of subsection (2) of this section would result in health savings account ineligibility under Section 223 of the federal Internal Revenue Code, this requirement shall apply only for health savings account-qualified high deductible health plans with respect to the deductible of such a plan after the enrollee has satisfied the minimum deductible under Section 223, except for with respect to items or services that are preventive care pursuant to Section 223(c)(2)(C) of the federal Internal Revenue Code, in which case the requirements of subsection (2) shall apply regardless of whether the minimum deductible under Section 223 has been satisfied.\n     SECTION 11.  Section 83-9-108, Mississippi Code of 1972, is amended as follows:\n     83-9-108.  (1)  Every insurer shall offer in each group or individual policy, contract or certificate of health insurance issued or renewed for persons who are residents of this state, coverage for annual screenings by low-dose mammography for all women thirty-five (35) years of age or older for the presence of occult breast cancer within the provisions of the policy, contract or certificate.  This coverage shall be offered on an optional basis, and each primary insured must accept or reject such coverage in writing and accept responsibility for premium payment.\n     (2)  Such benefits shall be at least as favorable as for other radiological examinations and subject to the same dollar limits, deductibles and coinsurance factors.  For purposes of this section, \"low-dose mammography\" means the X-ray examination of the breast using equipment dedicated specifically for mammography, including the X-ray tube, filter, compression device, screens, films and cassettes with a radiation exposure which is diagnostically valuable and in keeping with the recommended \"Average Patient Exposure Guides\" as published by the Conference of Radiation Control Program Directors, Inc.\n     (3)  Except for cancer policies, nothing in this section shall apply to accident-only, specified disease, hospital indemnity, Medicare supplement, long-term care or limited benefit health insurance policies.\n     (4)  The provisions of Section 10 of this act shall be applicable to the coverage for mammography screenings provided by insurers under the provisions of this section.",
+    "source_urls": [
+     "https://legiscan.com/MS/text/SB2858/id/2983140"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MO": {
+   "abbr": "MO",
+   "name": "Missouri",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Such benefits or coverage shall include at least the following:\n(1) A baseline mammogram for women age thirty-five to thirty-nine, inclusive;\n(2) A mammogram every year for women age forty and over;\n(3) A mammogram every year for any woman deemed by a treating physician to have an above-average risk for breast cancer in accordance with the American College of Radiology guidelines for breast cancer screening;\n(4) Any additional or supplemental imaging, such as breast magnetic resonance imaging or ultrasound, deemed medically necessary by a treating physician for proper breast cancer screening or evaluation in accordance with applicable American College of Radiology guidelines; and\n(5) Ultrasound or magnetic resonance imaging services, if determined by a treating physician to be medically necessary for the screening or evaluation of breast cancer for any woman deemed by the treating physician to have an above-average risk for breast cancer in accordance with American College of Radiology guidelines for breast cancer screening.\n\nCoverage and benefits required under this section shall be at least as favorable and subject to the same dollar limits, deductibles, and co-payments as other radiological examinations; provided, however, that:\n\n(1) On and after January 1, 2019, providers of health care services specified under this section shall be reimbursed at rates accurately reflecting the resource costs specific to each modality, including any increased resource cost; and\n(2) Cost-sharing requirements shall not apply if the provisions of section 376.1183 prohibit cost-sharing requirements with respect to such coverage.\n\nA policy providing the coverage and benefits required under this section shall not require any person covered under the policy who is entitled to a screening mammogram under subdivision (1) or (2) of subsection 2 of this section to obtain a referral from a primary care provider or other physician in order to receive the screening mammogram.\n\n376.1183. 1. For purposes of this section, the following terms mean:\n(1) \"Cost-sharing requirement\", any deductible, coinsurance, co-payment, or maximum limitation on the application of such deductible, coinsurance, co-payment, or similar out-of-pocket expense;\n(2) \"Diagnostic breast examination\", any medically necessary and appropriate examination of the breast, including such an examination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that is:\n(a) Used to evaluate an abnormality seen or suspected from a screening examination for breast cancer; or\n(b) Used to evaluate an abnormality detected by another means of examination;\n(3) \"Health benefit plan\", the same meaning given to the term in section 376.1350;\n(4) \"Health carrier\", the same meaning given to the term in section 376.1350;\n(5) \"Supplemental breast examination\", any medically necessary and appropriate examination of the breast, including such an examination using breast magnetic resonance imaging or breast ultrasound, that is:\n(a) Used to screen for breast cancer when there is no abnormality seen or suspected; and\n(b) Based on personal or family medical history or any additional factors that may increase the patient's risk of breast cancer.\n\nEach health carrier or health benefit plan that offers or issues health benefit plans that are delivered, issued for delivery, continued, or renewed in this state on or after January 1, 2024, and that provide coverage for diagnostic breast examinations, coverage for supplemental breast examinations, coverage required under section 376.782, or any combination of such coverages shall not impose any cost-sharing requirements with respect to any such coverage.\nIf, under federal law, application of the requirement under subsection 2 of this section would result in health savings account ineligibility under Section 223 of the Internal Revenue Code, the requirement under subsection 2 of this section shall apply to health savings account-qualified high deductible health plans with respect to the deductible of such a plan after the enrollee has satisfied the minimum deductible under Section 223, except with respect to items or services that are preventive care under Section 223(c)(2)(C) of the Internal Revenue Code, in which case the requirement of subsection 2 of this section shall apply regardless of whether the minimum deductible under Section 223 has been satisfied.",
+    "source_urls": [
+     "https://fastdemocracy.com/bill-search/mo/2023/bills/MOB00018571/"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "MT": {
+   "abbr": "MT",
+   "name": "Montana",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Coverage for minimum mammography and other breast examinations.\n(1) Each group or individual medical expense and blanket disability policy, certificate of insurance, and membership contract that is delivered, issued for delivery, renewed, extended, or modified in this state must provide minimum mammography examination coverage of minimum mammography and other breast examinations as provided in this section.\n(2) For the purpose of this section, the following definitions apply:\n(a) \"Cost-sharing requirement\" means a deductible, coinsurance, copayment, and any maximum limitation on the application of a deductible, coinsurance, copayment, or similar out-of-pocket expense.\n(b) \"Diagnostic breast examination\" means a medically necessary and clinically appropriate examination of the breast that is used to evaluate an abnormality seen or suspected from a screening examination for breast cancer or detected by another means of examination. The term includes examinations using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound.\n(c) \"Minimum mammography examination\" means:\n(i) one baseline mammogram for a woman who is 35 years of age or older and under 40 years of age;\n(ii) a mammogram every 2 years for any woman who is 40 years of age or older and under 50 years of age or more frequently if recommended by the woman's physician; and\n(iii) a mammogram each year for a woman who is 50 years of age or older.\n(d) \"Supplemental breast examination\" means a medically necessary and appropriate examination of the breast that is used to screen for breast cancer when there is no abnormality seen or suspected and is based on personal or family medical history or other factors that may increase a person's risk of breast cancer. The term includes examination using breast magnetic resonance imaging or breast ultrasound.\n(3) A minimum $70 payment, or the actual charge if less than $70, must be made for each minimum mammography examination performed before the application of the terms of the applicable group or individual disability policy, certificate of insurance, or membership contract that establish durational limits, deductibles, and copayment provisions, as long as the terms are not less favorable than for physical illness generally.\n(4) (a) Except as provided in subsection (4)(b), a group health plan or a health insurance issuer offering group or individual health insurance coverage may not impose any cost-sharing requirements for a diagnostic breast examination or supplemental breast examination when the plan or coverage provides screening benefits, supplemental breast examinations, and diagnostic breast examinations furnished to an individual enrolled under the plan or coverage.\n(b) If, under federal law, application of subsection (4)(a) would result in health savings account ineligibility under section 223 of the federal Internal Revenue Code, this requirement may apply only for health savings account-qualified high deductible health plans with respect to the deductible of the plan after the enrollee has satisfied the minimum deductible under section 223, except with respect to items or services that are preventive care pursuant to section 223(c)(2)(C) of the federal Internal Revenue Code, in which case the requirements of subsection (4)(a) apply regardless of whether the minimum deductible under section 223 has been satisfied.",
+    "source_urls": [
+     "https://pluralpolicy.com/app/legislative-tracking/bill/details/state-mt-2023-hb665/1245905"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NE": {
+   "abbr": "NE",
+   "name": "Nebraska",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NV": {
+   "abbr": "NV",
+   "name": "Nevada",
+   "fipi": {
+    "composite": 2,
+    "breast": 1,
+    "lung": 1
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "689A.0405\n\nA policy of health insurance must provide coverage for benefits payable for expenses incurred for:\n\n(a) A mammogram to screen for breast cancer annually for insureds who are 40 years of age or older.\n(b) An imaging test to screen for breast cancer on an interval and at the age deemed most appropriate, when medically necessary, as recommended by the insured's provider of health care based on personal or family medical history or additional factors that may increase the risk of breast cancer for the insured.\n(c) A diagnostic imaging test for breast cancer at the age deemed most appropriate, when medically necessary, as recommended by the insured's provider of health care to evaluate an abnormality which is: (1) Seen or suspected from a mammogram described in paragraph (a) or an imaging test described in paragraph (b); or (2) Detected by other means of examination.\n\nAn insurer must ensure that the benefits required by subsection 1 are made available to an insured through a provider of health care who participates in the network plan of the insurer.\nExcept as otherwise provided in subsection 5, an insurer that offers or issues a policy of health insurance shall not:\n\n(a) Except as otherwise provided in subsection 6, require an insured to pay a higher deductible, any copayment, coinsurance, or any other form of cost-sharing, or require a longer waiting period or other condition to obtain any benefit provided in the policy of health insurance pursuant to subsection 1;\n(b) Refuse to issue a policy of health insurance or cancel a policy of health insurance solely because the person applying for or covered by the policy uses or may use any such benefit;\n(c) Offer or pay any type of material inducement or financial incentive to an insured to discourage the insured from obtaining any such benefit;\n(d) Penalize a provider of health care who provides any such benefit to an insured, including without limitation reducing the reimbursement of the provider of health care;\n(e) Offer or pay any type of material inducement, bonus, or other financial incentive to a provider of health care to deny, reduce, withhold, limit, or delay access to any such benefit to an insured; or\n(f) Impose any other restrictions or delays on the access of an insured to any such benefit.\n\nA policy subject to the provisions of this chapter which is delivered, issued for delivery, or renewed on or after January 1, 2024, has the legal effect of including the coverage required by subsection 1, and any provision of the policy or the renewal which is in conflict with this section is void.\nExcept as otherwise provided in this section and federal law, an insurer may use medical management techniques, including without limitation any available clinical evidence, to determine the frequency of or treatment relating to any benefit required by this section or the type of provider of health care to use for such treatment.\nIf the application of paragraph (a) of subsection 3 would result in the ineligibility of a health savings account of an insured pursuant to 26 U.S.C. \u00a7 223, the prohibitions of paragraph (a) of subsection 3 shall apply only for a qualified policy of health insurance with respect to the deductible of such a policy of health insurance after the insured has satisfied the minimum deductible pursuant to 26 U.S.C. \u00a7 223, except with respect to items or services that constitute preventive care pursuant to 26 U.S.C. \u00a7 223(c)(2)(C), in which case the prohibitions of paragraph (a) of subsection 3 shall apply regardless of whether the minimum deductible under 26 U.S.C. \u00a7 223 has been satisfied.\nAs used in this section:\n\n(a) \"Medical management technique\" means a practice which is used to control the cost or utilization of health care services or prescription drug use. The term includes without limitation the use of step therapy, prior authorization, or categorizing drugs and devices based on cost, type, or method of administration.\n(b) \"Network plan\" means a policy of health insurance offered by an insurer under which the financing and delivery of medical care, including items and services paid for as medical care, are provided in whole or in part through a defined set of providers under contract with the insurer. The term does not include an arrangement for the financing of premiums.\n(c) \"Provider of health care\" has the meaning ascribed to it in NRS 629.031.\n(d) \"Qualified policy of health insurance\" means a policy of health insurance that has a high deductible and is in compliance with 26 U.S.C. \u00a7 223 for the purposes of establishing a health savings account.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1608648"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section 1. Chapter 689A of NRS is hereby amended by adding thereto a new section to read as follows:\n1. An insurer that offers a policy of health insurance shall include in the policy coverage for:\n(a) One annual screening for lung cancer using low-dose computed tomography for an insured who:\n(1) Is at least 50 years of age but not more than 80 years of\nage, regularly smokes cigarettes or has stopped smoking within the iimmediately preceding 15 years, has a smoking history of at least 20 pack-years and does not suffer from a health problem that substantially limits the life expectancy of the insured or the willingness of the insured to undergo curative surgery; or\n(2) Meets any additional criteria under which the United States Preventive Services Task Force recommends screening fo lung cancer; and\n(b) Additional screening or diagnostic services for lung cancer recommended by a qualified provider of health care based on the results of the screening performed pursuant to paragraph (a).\n2. An insurer that offers or issues a policy of health insurance shall not require an insured to pay any deductible,\ncopayment or coinsurance to obtain any benefit provided in the policy of health insurance pursuant to subsection 1.\n3. A policy of health insurance subject to the provisions of this chapter that is delivered, issued for delivery or renewed on or after January 1, 2026, has the legal effect of including the coverage required by this section, and any provision of the policy that conflicts with the provisions of this section is void.\n4. As used in this section:\n(a) \u201cComputed tomography\u201d means the process of producing sectional and three-dimensional images using external ionizing radiation.\n(b) \u201cPack-year\u201d means the product of the number of packs of cigarettes smoked per day and the number of years that the person has smoked.\n(c) \u201cProvider of health care\u201d has the meaning ascribed to it in NRS 629.031.",
+    "source_urls": [
+     "https://archive.leg.state.nv.us/Session/83rd2025/Bills/SB/SB387.pdf"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NH": {
+   "abbr": "NH",
+   "name": "New Hampshire",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "I.  No group health plan, or a health insurance issuer offering group or individual health insurance coverage, that provides benefits with respect to screening and diagnostic and supplemental breast examinations furnished to an individual enrolled under such plan or coverage, shall impose any cost-sharing requirements for such services.\nII.  For a health care contract that meets the definition of a \"high deductible plan\" set forth in 26 U.S.C. section 223(c)(2), this requirement shall apply only after the enrollee has satisfied the minimum deductible under section 223 for the year, except with respect to items or services that are preventive care pursuant to section 223(c)(2)(C) of the federal Internal Revenue Code, in which case paragraph I shall apply regardless of whether the minimum deductible under section 223 has been satisfied.\nIII.  In this section:\n(a)  \"Cost-sharing requirements\" mean a deductible, coinsurance, copayment, and any maximum limitation on the application of such a deductible, coinsurance, copayment or similar out-of-pocket expense.\n(b)  \"Diagnostic breast examination\" means a medically necessary and appropriate examination of the breast, including such an examination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that is:\n(1)  Used to evaluate an abnormality seen or suspected from a screening examination for breast cancer; or\n(2)  Used to evaluate an abnormality detected by another means of examination.\n(c)  \"Supplemental breast examination\" means a medically necessary and appropriate examination of the breast, including such an examination using breast magnetic resonance imaging, or breast ultrasound, that is:\n(1)  Used to screen for breast cancer when there is no abnormality seen or suspected; and\n(2)  Based on personal or family medical history, or additional factors that may increase the individual\u2019s risk of breast cancer.\n2  Effective Date.  This act shall take effect January 1, 2025.",
+    "source_urls": [
+     "https://legiscan.com/NH/text/HB1296/id/2985069"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NJ": {
+   "abbr": "NJ",
+   "name": "New Jersey",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "No individual health insurance policy providing hospital or medical expense benefits shall be delivered, issued, executed, or renewed in this State or approved for issuance or renewal in this State by the Commissioner of Banking and Insurance, on or after the effective date of this act, unless the policy provides benefits to any named insured or other person covered thereunder for expenses incurred in conducting: (1) one baseline mammogram examination for women who are at least 35 but less than 40 years of age; a mammogram examination every year for women age 40 and over; and, in the case of a woman who is under 40 years of age and has a family history of breast cancer or other breast cancer risk factors, a mammogram examination at such age and intervals as deemed medically necessary by the woman\u2019s health care provider; and (2) comprehensive ultrasound screening of an entire breast or breasts if a mammogram demonstrates heterogeneous or extremely dense breast tissue based on the Breast Imaging Reporting and Data System established by the American College of Radiology or if a woman is believed to be at increased risk for breast cancer due to family history or prior personal history of breast cancer, positive genetic testing, or other indications as determined by a woman\u2019s physician or advanced practice nurse. These benefits shall be provided to the same extent as for any other sickness under the policy. The provisions of this section shall apply to all policies in which the insurer has reserved the right to change the premium.",
+    "source_urls": [
+     "https://www.njleg.state.nj.us/bill-search/2012/S792"
+    ],
+    "notes": "2026 bill in committee S1275, previous bill just had US but no cost sharing prohibitions",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NM": {
+   "abbr": "NM",
+   "name": "New Mexico",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "A new section of the Health Care Purchasing Act is enacted to read: \"DIAGNOSTIC AND SUPPLEMENTAL BREAST EXAMINATIONS.-- A. Group health coverage, including self-insurance, offered, issued, amended, delivered or renewed under the Health Care Purchasing Act that provides coverage for diagnostic and supplemental breast examinations shall not impose cost sharing for diagnostic and supplemental breast examinations. B. The provisions of this section do not apply to excepted benefit plans as provided pursuant to the Short-Term Health Plan and Excepted Benefit Act, catastrophic plans as defined pursuant to 42 USCA Section 18022(e) or high deductible health plans with health savings accounts until an eligible insured's deductible has been met, unless otherwise allowed pursuant to federal law. HJC/HB 27/a C. As used in this section: (1) \"cost sharing\" means a deductible, coinsurance, copayment and any maximum limitation on the application of such a deductible, coinsurance, copayment or similar out-of-pocket expense; (2) \"diagnostic breast examination\" means a medically necessary and clinically appropriate examination of the breast using diagnostic mammography, breast magnetic resonance imaging or breast ultrasound that evaluates an abnormality: (a) seen or suspected from a screening examination for breast cancer; or (b) detected by another means of examination; and (3) \"supplemental breast examination\" means a medically necessary and clinically appropriate examination of the breast using breast magnetic resonance imaging or breast ultrasound that is: (a) used to screen for breast cancer when there is no abnormality seen or suspected; and (b) based on personal or family medical history or additional factors that may increase the individual's risk of breast cancer.\"",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1507084"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NY": {
+   "abbr": "NY",
+   "name": "New York",
+   "fipi": {
+    "composite": 3,
+    "breast": 2,
+    "lung": 1
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(A) Every policy that provides coverage for hospital, surgical or medical care shall provide the following coverage for mammography screening for occult breast cancer: (i) upon the recommendation of a physician, a mammogram, which may be provided by breast tomosynthesis, at any age for covered persons having a prior history of breast cancer or who have a first degree relative with a prior history of breast cancer; (ii) a single baseline mammogram, which may be provided by breast tomosynthesis, for covered persons aged thirty-five through thirty-nine, inclusive; [and] (iii) an annual mammogram, which may be provided by breast tomosynthesis, for covered persons aged forty and older; and (iv) upon the recommendation of a physician, screening and diagnostic imaging, including diagnostic mammograms, breast ultrasounds, or magnet- ic resonance imaging, recommended by nationally recognized clinical practice guidelines for the detection of breast cancer. For the purposes of this item, \"nationally recognized clinical practice guidelines\" means evidence-based clinical practice guidelines informed by a systematic review of evidence and an assessment of the benefits, and risks of alternative care options intended to optimize patient care developed by independent organizations or medical professional societies utilizing a transparent methodology and reporting structure and with a conflict of interest policy. (B) Such coverage required pursuant to subparagraph (A) or (C) of this paragraph shall not be subject to annual deductibles or coinsurance. If under federal law, application of this requirement would result in health savings account ineligibility under 26 USC 223, this requirement shall apply for health savings account-qualified high deductible health plans with respect to the deductible of such a plan after the enrollee has satisfied the minimum deductible under 26 USC 223, except for with respect to items or services that are preventive care pursuant to 26 USC 223(c)(2)(C), in which case the requirements of this paragraph shall apply regardless of whether the minimum deductible under 26 USC 223 has been satisfied.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1527836"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section  1.  Subsection  (i)  of  section 3216 of the insurance law is\n amended by adding a new paragraph 41 to read as follows:\n   (41) (A) EVERY POLICY WHICH PROVIDES MEDICAL, MAJOR MEDICAL, OR  SIMI-\n LAR  COMPREHENSIVE-TYPE  COVERAGE  SHALL  PROVIDE COVERAGE FOR FOLLOW-UP\n SCREENING OR DIAGNOSTIC SERVICES FOR LUNG CANCER UPON THE RECOMMENDATION\n OF A HEALTH CARE PROVIDER ACTING WITHIN THE PROVIDER'S SCOPE OF PRACTICE\n PURSUANT TO TITLE EIGHT OF THE EDUCATION  LAW,  AND  AS  RECOMMENDED  BY\n NATIONALLY  RECOGNIZED CLINICAL PRACTICE GUIDELINES FOR THE DETECTION OF\n LUNG CANCER.\n   (B) NOTWITHSTANDING ANY  OTHER  PROVISION  OF  LAW,  ANY  POLICY  THAT\n PROVIDES  COVERAGE  REQUIRED  BY THIS PARAGRAPH SHALL NOT IMPOSE PATIENT\n COST SHARING FOR FOLLOW-UP SCREENING OR  DIAGNOSTIC  SERVICES  FOR  LUNG\n CANCER.\n   (C)  FOR  THE PURPOSES OF THIS PARAGRAPH, \"NATIONALLY RECOGNIZED CLIN-\n ICAL PRACTICE GUIDELINES\" MEANS EVIDENCE-BASED, PEER  REVIEWED  CLINICAL\n PRACTICE  GUIDELINES  INFORMED BY A SYSTEMATIC REVIEW OF EVIDENCE AND AN\n ASSESSMENT OF THE  BENEFITS,  AND  RISKS  OF  ALTERNATIVE  CARE  OPTIONS\n INTENDED TO OPTIMIZE PATIENT CARE DEVELOPED BY INDEPENDENT ORGANIZATIONS\n OR  MEDICAL  PROFESSIONAL  SOCIETIES UTILIZING A TRANSPARENT METHODOLOGY\n AND REPORTING STRUCTURE AND WITH A CONFLICT OF INTEREST POLICY.\n(D) NOTHING IN THIS PARAGRAPH SHALL BE CONSTRUED  TO  PREVENT  MEDICAL\n MANAGEMENT  OR UTILIZATION REVIEW OF THE SERVICES, INCLUDING PREAUTHORI-\n ZATION, TO ENSURE THAT SUCH  SERVICES  ARE  CONSISTENT  WITH  NATIONALLY\n RECOGNIZED  CLINICAL  PRACTICE  GUIDELINES  FOR  THE  DETECTION  OF LUNG\n CANCER.\n   (E)  IF  THE  POLICY  IS  A  HIGH DEDUCTIBLE HEALTH PLAN AS DEFINED IN\n SECTION 223(C)(2) OF THE INTERNAL REVENUE CODE OF  1986,  SUCH  COVERAGE\n MAY  BE  SUBJECT  TO THE PLAN'S ANNUAL DEDUCTIBLE IF APPLICATION OF THIS\n REQUIREMENT WOULD RESULT IN INELIGIBILITY FOR A HEALTH SAVINGS ACCOUNT.\n   \u00a7 2. Subsection (l) of section 3221 of the insurance law is amended by\n adding a new paragraph 23 to read as follows:\n   (23) (A) EVERY POLICY WHICH PROVIDES MEDICAL, MAJOR MEDICAL, OR  SIMI-\n LAR  COMPREHENSIVE-TYPE  COVERAGE  SHALL  PROVIDE COVERAGE FOR FOLLOW-UP\n SCREENING OR DIAGNOSTIC SERVICES FOR LUNG CANCER UPON THE RECOMMENDATION\n OF A HEALTH CARE PROVIDER ACTING WITHIN THE PROVIDER'S SCOPE OF PRACTICE\n PURSUANT TO TITLE EIGHT OF THE EDUCATION  LAW,  AND  AS  RECOMMENDED  BY\n NATIONALLY  RECOGNIZED CLINICAL PRACTICE GUIDELINES FOR THE DETECTION OF\n LUNG CANCER.\n   (B) NOTWITHSTANDING ANY  OTHER  PROVISION  OF  LAW,  ANY  POLICY  THAT\n PROVIDES  COVERAGE  REQUIRED  BY THIS PARAGRAPH SHALL NOT IMPOSE PATIENT\n COST SHARING FOR FOLLOW-UP SCREENING OR  DIAGNOSTIC  SERVICES  FOR  LUNG\n CANCER.\n   (C)  FOR  THE PURPOSES OF THIS PARAGRAPH, \"NATIONALLY RECOGNIZED CLIN-\n ICAL PRACTICE GUIDELINES\" MEANS EVIDENCE-BASED, PEER  REVIEWED  CLINICAL\n PRACTICE  GUIDELINES  INFORMED BY A SYSTEMATIC REVIEW OF EVIDENCE AND AN\n ASSESSMENT OF THE  BENEFITS,  AND  RISKS  OF  ALTERNATIVE  CARE  OPTIONS\n INTENDED TO OPTIMIZE PATIENT CARE DEVELOPED BY INDEPENDENT ORGANIZATIONS\n OR  MEDICAL  PROFESSIONAL  SOCIETIES UTILIZING A TRANSPARENT METHODOLOGY\n AND REPORTING STRUCTURE AND WITH A CONFLICT OF INTEREST POLICY.\n   (D) NOTHING IN THIS PARAGRAPH SHALL BE CONSTRUED  TO  PREVENT  MEDICAL\n MANAGEMENT  OR UTILIZATION REVIEW OF THE SERVICES, INCLUDING PREAUTHORI-\n ZATION, TO ENSURE THAT SUCH  SERVICES  ARE  CONSISTENT  WITH  NATIONALLY\n RECOGNIZED  CLINICAL  PRACTICE  GUIDELINES  FOR  THE  DETECTION  OF LUNG\n CANCER.\n   (E) IF THE POLICY IS A HIGH  DEDUCTIBLE  HEALTH  PLAN  AS  DEFINED  IN\n SECTION  223(C)(2)  OF  THE INTERNAL REVENUE CODE OF 1986, SUCH COVERAGE\n MAY BE SUBJECT TO THE PLAN'S ANNUAL DEDUCTIBLE IF  APPLICATION  OF  THIS\n REQUIREMENT WOULD RESULT IN INELIGIBILITY FOR A HEALTH SAVINGS ACCOUNT.\n   \u00a7  3.  Section  4303  of  the insurance law is amended by adding a new\n subsection (ww) to read as follows:\n   (WW) (1) EVERY POLICY WHICH PROVIDES MEDICAL, MAJOR MEDICAL, OR  SIMI-\n LAR  COMPREHENSIVE-TYPE  COVERAGE  SHALL  PROVIDE COVERAGE FOR FOLLOW-UP\n SCREENING OR DIAGNOSTIC SERVICES FOR LUNG CANCER UPON THE RECOMMENDATION\n OF A HEALTH CARE PROVIDER ACTING WITHIN THE PROVIDER'S SCOPE OF PRACTICE\n PURSUANT TO TITLE EIGHT OF THE EDUCATION  LAW,  AND  AS  RECOMMENDED  BY\n NATIONALLY  RECOGNIZED CLINICAL PRACTICE GUIDELINES FOR THE DETECTION OF\n LUNG CANCER.\n   (2) NOTWITHSTANDING ANY  OTHER  PROVISION  OF  LAW,  ANY  POLICY  THAT\n PROVIDES  COVERAGE  REQUIRED BY THIS SUBSECTION SHALL NOT IMPOSE PATIENT\n COST SHARING FOR FOLLOW-UP SCREENING OR  DIAGNOSTIC  SERVICES  FOR  LUNG\n CANCER.\n   (3)  FOR  THE PURPOSES OF THIS PARAGRAPH, \"NATIONALLY RECOGNIZED CLIN-\n ICAL PRACTICE GUIDELINES\" MEANS EVIDENCE-BASED, PEER  REVIEWED  CLINICAL\n PRACTICE  GUIDELINES  INFORMED BY A SYSTEMATIC REVIEW OF EVIDENCE AND AN\n ASSESSMENT OF THE  BENEFITS,  AND  RISKS  OF  ALTERNATIVE  CARE  OPTIONS\n INTENDED TO OPTIMIZE PATIENT CARE DEVELOPED BY INDEPENDENT ORGANIZATIONS\n A. 1195--A                          3\n \n OR  MEDICAL  PROFESSIONAL  SOCIETIES UTILIZING A TRANSPARENT METHODOLOGY\n AND REPORTING STRUCTURE AND WITH A CONFLICT OF INTEREST POLICY.\n   (4)  NOTHING  IN  THIS PARAGRAPH SHALL BE CONSTRUED TO PREVENT MEDICAL\n MANAGEMENT OR UTILIZATION REVIEW OF THE SERVICES, INCLUDING  PREAUTHORI-\n ZATION,  TO  ENSURE  THAT  SUCH  SERVICES ARE CONSISTENT WITH NATIONALLY\n RECOGNIZED CLINICAL  PRACTICE  GUIDELINES  FOR  THE  DETECTION  OF  LUNG\n CANCER.\n   (5)  IF  THE  POLICY  IS  A  HIGH DEDUCTIBLE HEALTH PLAN AS DEFINED IN\n SECTION 223(C)(2) OF THE INTERNAL REVENUE CODE OF  1986,  SUCH  COVERAGE\n MAY  BE  SUBJECT  TO THE PLAN'S ANNUAL DEDUCTIBLE IF APPLICATION OF THIS\n REQUIREMENT WOULD RESULT IN INELIGIBILITY FOR A HEALTH SAVINGS ACCOUNT.\n   \u00a7 4. This act shall take effect January 1, 2027 and shall apply to all\n policies and contracts issued, renewed, modified, altered or amended  on\n or after such date.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1780921",
+     "https://www.nysenate.gov/legislation/bills/2025/A1195/amendment/A"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "NC": {
+   "abbr": "NC",
+   "name": "North Carolina",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "ND": {
+   "abbr": "ND",
+   "name": "North Dakota",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "OH": {
+   "abbr": "OH",
+   "name": "Ohio",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "OK": {
+   "abbr": "OK",
+   "name": "Oklahoma",
+   "fipi": {
+    "composite": 3,
+    "breast": 3,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section 6060. A. For the purposes of this section:\n1. \"Breast magnetic resonance imaging\" means a diagnostic tool used to produce detailed pictures of the structure of the breast;\n2. \"Breast ultrasound\" means a noninvasive, diagnostic imaging technique that uses high-frequency sound waves to produce detailed\nimages of the breast;\n3. \"Diagnostic examination for breast cancer\" means a medically necessary and clinically appropriate examination, as defined by current guidelines and as determined by a clinician who is evaluating the individual for breast cancer, to evaluate the abnormality in the breast that is:\na. seen or suspected from a screening examination for breast cancer,\nb. detected by another means of examination, or\nc. suspected based on the medical history or family medical history of the individual.\nThis examination may include, but is not limited to, a contrast\u2013enhanced mammogram, diagnostic mammogram, breast magnetic resonance imaging, or a breast ultrasound, or molecular breast imaging;\n4. \"Diagnostic mammography\" means a diagnostic tool that:\na. uses X-ray, and\nb. is designed to evaluate abnormality in a breast;\n5. \"Health benefit plan\" means any plan or arrangement as defined in subsection C of Section 6060.4 of this title;\n6. \"Low-dose mammography\" means:\na. the X-ray examination of the breast using equipment specifically dedicated for such purpose, with an average radiation exposure delivery of less than one rad mid-breast and with two views for each breast,\nb. digital mammography, or\nc. breast tomosynthesis;\n7. \"Breast tomosynthesis\" means a radiologic mammography procedure involving the acquisition of projection images over a stationary breast to produce cross-sectional digital three- dimensional images of the breast from which breast cancer screening diagnoses may be made; and\n8. \"Screening mammography\" means a radiologic procedure provided to a woman, who has no signs or symptoms of breast cancer, for the purpose of early detection of breast cancer, including\nbreast tomosynthesis; and\n9. \"Supplemental examination\" means a medically necessary and appropriate examination of the breast, including, but not limited to, such an examination using contrast\u2013enhanced mammography, breast magnetic resonance imaging, breast ultrasound, or molecular breast imaging that is:\na. used to screen for breast cancer when there is no abnormality seen or suspected, and\nb. based on personal or family medical history or additional factors that increase the individual's risk of breast cancer, including heterogeneously or extremely dense breasts.\nB. All health benefit plans shall include the coverage specified by this section for a low-dose mammography screening for the presence of occult breast cancer and a diagnostic and supplemental examination for breast cancer. Such coverage shall not:\n1. Be subject to the policy deductible, co-payments and co- insurance limits of the plan; or\n2. Require that a female undergo a mammography screening at a specified time as a condition of payment.\nC. 1. Any female thirty-five (35) through thirty-nine (39) years of age shall be entitled pursuant to the provisions of this section to coverage for a low-dose mammography screening once every five (5) years.\n2. Any female forty (40) years of age or older shall be entitled pursuant to the provisions of this section to coverage for an annual low-dose mammography screening.\nD. If application of this act would result in health savings account ineligibility under Section 223 of the federal Internal Revenue Code, as amended, the provisions of this section shall only apply to health savings accounts with qualified high deductible health plans with respect to the deductible of such a plan after the enrollee has satisfied the minimum deductible. Provided, however, the provisions of this section shall apply to items of services that are preventive care pursuant to Section 223(c)(2)(c) of the federal Internal Revenue Code, as amended, regardless of whether the minimum deductible has been satisfied.",
+    "source_urls": [
+     "https://legiscan.com/OK/bill/HB1389/2025"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 2,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": true,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "OR": {
+   "abbr": "OR",
+   "name": "Oregon",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "SECTION 1. Section 2 of this 2023 Act is added to and made a part of the Insurance Code.\nSECTION 2. (1) As used in this section:\n(a) \u201cDiagnostic breast examination\u201d means an examination used to evaluate an abnor-\nmality of the breast that is detected or suspected from a screening examination for breast\ncancer or by any other means of examination using:\n(A) Diagnostic mammography;\n(B) Breast magnetic resonance imaging; or\n(C) Breast ultrasound.\n(b) \u201cSupplemental breast examination\u201d means an examination of the breast, such as\nbreast magnetic resonance imaging or breast ultrasound, that is:\n(A) Used to screen for breast cancer when there is no abnormality seen or suspected;\nand\n(B) Based on personal or family medical history or other factors that increase an\nindividual\u2019s risk of breast cancer.\n(2) Except as provided in ORS 742.008, a carrier offering a group health benefit plan or\nan individual health benefit plan in this state that reimburses the cost of supplemental or\ndiagnostic breast examinations may not impose on the coverage of a medically necessary\nsupplemental or diagnostic breast examination:\n(a) A deductible;\n(b) Coinsurance;\n(c) A copayment; or\n(d) Other out-of-pocket expenses.",
+    "source_urls": [
+     "https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/SB1041"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "PA": {
+   "abbr": "PA",
+   "name": "Pennsylvania",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Section 632.1. Coverage for Mammographic Examinations, Magnetic Resonance Imaging and Other Forms of Breast Imaging.\n(a) A health insurance policy offered, issued or renewed in this Commonwealth shall provide, as a minimum requirement for a covered person under the policy, coverage without cost sharing for the following services:\n(1) Mammographic examinations as follows:\n(i) A mammographic examination for a covered person 40 years of age or older.\n(ii) A mammographic examination for a covered person under 40 years of age upon the recommendation of the covered person's physician.\n(2) Supplemental breast screenings for a covered person whose risk level for breast cancer is determined to be at least average risk or higher.\n(3) Diagnostic breast examinations for a covered person whose risk level for breast cancer is determined to be at least average risk or higher.\n(b) The coverage required under subsection (a) shall be subject to the following:\n(1) Article XXI of this act.\n(2) The terms and conditions of the health insurance policy, provided such terms and conditions are consistent with this section.\n(3) Applicable Federal law and regulations.\n(c) Prior to payment for a mammographic examination under this section, an insurer shall verify that the facility providing the mammogram is properly certified under 42 U.S.C. \u00a7 263b (relating to certification of mammography facilities).\n(d) Nothing in this section shall be construed to:\n(1) Preclude an insurer from applying utilization review under Article XXI of this act.\n(2) Prevent the application of deductible, copayment or coinsurance provisions for breast imaging services beyond the minimum coverage required under subsection (a).\n(3) Require an insurer to cover a surgical procedure known as mastectomy.\n(4) Prohibit the application of deductible or copayment provisions contained in a policy or plan, except as preempted by Federal law.\n(e) The following shall apply:\n(1) Except as provided under paragraph (2), the terms in this section shall have the same meanings as provided in section 2102.\n(2) As used in this section, the following words and phrases shall have the meanings given to them in this paragraph unless the context clearly indicates otherwise:\n\"Average risk\" means a covered person who meets all of the following criteria:\n(i) Has, based on clinical review criteria, a 15% or less lifetime risk of being diagnosed with breast cancer during the covered person's lifetime.\n(ii) Has no personal history of breast cancer.\n(iii) Has no family history of breast cancer.\n(iv) Has no known BRCA gene mutation.\n(v) Has no history of radiation therapy before 30 years of age.\n(vi) Has no personal history of atypical breast histologies.\n(vii) Has not undergone prior therapeutic thoracic radiation therapy.\n(viii) Does not have heterogeneously dense or extremely dense breast tissue.\n(ix) Does not have a personal history of Li-Fraumeni syndrome, Cowden syndrome or Bannayan-Riley-Ruvalcaba syndrome, or a first-degree relative with one of these syndromes.\n\"Diagnostic breast examination\" means a medically necessary and clinically appropriate examination of the breast using diagnostic mammography, standard or abbreviated breast magnetic resonance imaging or breast ultrasound when an abnormality is seen or suspected.\n\"Supplemental breast screening\" means a medically necessary and clinically appropriate examination of the breast using either standard or abbreviated magnetic resonance imaging or, if such imaging is not possible, ultrasound, if recommended by the treating physician, to screen for breast cancer when no abnormality is seen or suspected.\n\nSection 3. This act shall apply as follows:\n(1) For health insurance policies for which either rates or forms are required to be filed by the Federal Government or the Insurance Department, this act shall apply to any policy for which a form or rate is first filed on or after 180 days after the effective date of this paragraph.\n(2) For health insurance policies for which neither rates nor forms are required to be filed with the Federal Government or the Insurance Department, this act shall apply to any policy issued or renewed on or after 180 days after the effective date of this paragraph.\nSection 4. This act shall take effect in 60 days.",
+    "source_urls": [
+     "https://www.palegis.us/legislation/bills/2025/sb88"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "RI": {
+   "abbr": "RI",
+   "name": "Rhode Island",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "SC": {
+   "abbr": "SC",
+   "name": "South Carolina",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "SD": {
+   "abbr": "SD",
+   "name": "South Dakota",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "TN": {
+   "abbr": "TN",
+   "name": "Tennessee",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Tennessee Code Annotated, Section 56-7-2502, is amended by deleting the section and substituting:\n\n(a) As used in this section: (1) \"Breast tomosynthesis\" means a radiologic mammography procedure that involves the acquisition of projection images over a stationary breast to produce cross-sectional digital three-dimensional images of the breast from which applicable breast cancer screening diagnoses may be determined; (2) \"Diagnostic imaging\" means an imaging examination using mammography, ultrasound imaging, or magnetic resonance imaging that is designed to evaluate: (A) A subjective or objective abnormality detected by a physician or patient in a breast; (B) An abnormality seen by a physician on a screening mammogram; or (C) An abnormality previously identified by a physician as likely benign in a breast for which follow-up imaging is recommended by a physician; (3) \"Health benefit plan\": (A) Means a hospital or medical expense policy; health, hospital, or medical service corporation contract; policy or agreement entered into by a health insurer; or health maintenance organization contract offered by an employer; and (B) Does not include policies or certificates covering only accident, credit, dental, disability income, long-term care, hospital indemnity, medicare supplement as defined in \u00a7 1882(g)(1) of the Social Security Act (42 U.S.C. \u00a7 1395ss(g)(1)), specified disease, or vision care; other limited benefit health insurance; coverage issued as a supplement to liability insurance; workers' compensation insurance; automobile medical payment insurance; or insurance that is statutorily required to be contained in any liability insurance policy or equivalent self insurance; (4) \"Low-dose mammography\" means: (A) An x-ray examination of the breast using equipment dedicated specifically for mammography, including an x-ray tube, filter, compression device, and screen, with an average radiation exposure delivery of less than one (1) rad per mid-breast and with two (2) views for each breast; (B) Digital mammography; or (C) Breast tomosynthesis; and (5) \"Supplemental breast screening\" means a medically necessary and appropriate examination of the breast, including breast magnetic resonance imaging or breast ultrasound that is: (A) Used to screen for breast cancer when there is no abnormality seen or suspected; and (B) Based on personal family medical history, dense breast tissue, or additional factors that may increase the individual's risk of breast cancer. (b) A health benefit plan that provides coverage to a patient who is thirty-five (35) years of age or older must include coverage for an annual screening by all forms of low-dose mammography for the presence of breast cancer. (c) A health benefit plan that provides coverage for a screening mammogram must provide coverage for diagnostic imaging and supplemental breast screening.\n\nSECTION 1. Tennessee Code Annotated, Section 56-7-2502(a), is amended by inserting the following as a new subdivision: ( ) \"Cost sharing requirement\" means a deductible, coinsurance, copayment, or a maximum limitation on the application of a deductible, coinsurance, copayment, or other out-of-pocket expense;\nSECTION 2. Tennessee Code Annotated, Section 56-7-2502(c), is amended by deleting the subsection and substituting:\n(c)\n(1) Except as provided in subdivision (c)(2), a health benefit plan that provides coverage for a screening mammogram must provide coverage for diagnostic imaging and supplemental breast screening without imposing a cost sharing requirement on the patient.\n(2) If compliance with subdivision (c)(1) would result in a high deductible health benefit plan with a health savings account becoming ineligible under\u00a7 223 of the Internal Revenue Code (26 U.S.C. \u00a7 223), subdivision (c)(1) applies to such plans only after the plan enrollee has satisfied the minimum deductible required under\u00a7 223 of the Internal Revenue Code, except with respect to items\nor services that are deemed preventive care pursuant to \u00a7 223(c)(2)(C) of the Internal Revenue Code.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1445010",
+     "https://legiscan.com/TN/text/SB0365/id/2822819"
+    ],
+    "notes": "2 bills",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "TX": {
+   "abbr": "TX",
+   "name": "Texas",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:\n                SECTION 1.  The heading to Chapter 1356, Insurance Code, is amended to read as follows:\n         CHAPTER 1356. MAMMOGRAPHY AND OTHER BREAST IMAGING\n                SECTION 2.  Section 1356.001(1-a), Insurance Code, is amended to read as follows:\n                      (1-a)  \"Diagnostic imaging\" means an imaging examination using mammography, ultrasound imaging, or magnetic resonance imaging that is designed to evaluate:\n                            (A)  a subjective or objective abnormality detected by a physician or patient in a breast;\n                            (B)  an abnormality seen by a physician on a screening mammogram;\n                            (C)  an abnormality previously identified by a physician as probably benign in a breast for which follow-up imaging is recommended by a physician; or\n                            (D)  an individual with a personal history of breast cancer or dense breast tissue.\n                SECTION 3.  Section 1356.005(a-1), Insurance Code, is amended to read as follows:\n                (a-1)  A health benefit plan that provides coverage for a screening mammogram must provide coverage for [a] diagnostic imaging [mammogram] that is no less favorable than the coverage for a screening mammogram. \n                SECTION 4.  If before implementing any provision of this Act a state agency determines that a waiver or authorization from a  federal agency is necessary for implementation of that provision, the agency affected by the provision shall request the waiver or authorization and may delay implementing that provision until the waiver or authorization is granted.\n                SECTION 5.  The change in law made by this Act applies only to a health benefit plan that is delivered, issued for delivery, or renewed on or after January 1, 2022.  A health benefit plan that is\ndelivered, issued for delivery, or renewed before January 1, 2022, is governed by the law as it existed immediately before the effective date of this Act, and that law is continued in effect for that purpose.\n                SECTION 6.  The Texas Department of Insurance, the Employees Retirement System of Texas, the Teacher Retirement System of Texas, The University of Texas System, The Texas A&M University System, and any other state agency or institution subject to this Act are required to implement a provision of this Act only if the legislature appropriates money specifically for that purpose.If the legislature does not appropriate money specifically for that purpose, those agencies may, but are not required to, implement a provision of this Act using other appropriations available for that purpose.",
+    "source_urls": [
+     "https://capitol.texas.gov/tlodocs/87R/billtext/html/SB01065F.HTM"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "UT": {
+   "abbr": "UT",
+   "name": "Utah",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "VT": {
+   "abbr": "VT",
+   "name": "Vermont",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a)(1) Insurers shall provide coverage for screening by mammography and for other medically necessary breast imaging services upon recommendation of a health care provider as needed to detect the presence of breast cancer  nd other abnormalities of the breast or breast tissue. In addition, insurers shall provide coverage for screening by ultrasound or another appropriate imaging service for a patient for whom the results of a screening mammogram were inconclusive or who has dense breast tissue, or both.\n(2) Benefits provided shall cover the full cost of the mammography, service or ultrasound, as applicable, and other breast imaging services and shall not be subject to any co-payment, deductible, coinsurance, or other cost-sharing requirement or additional charge, except to the extent that such coverage would disqualify a high-deductible health plan from eligibility for a health savings account pursuant to 26 U.S.C. \u00a7 223.\n(b) [Repealed.]\n(c) This section shall apply only to screening procedures conducted by test facilities accredited by the American College of Radiologists.\n(d) As used in this subchapter:\n(1) \u201cInsurer\u201d means any insurance company that provides health insurance as defined in subdivision 3301(a)(2) of this title, nonprofit hospital and medical service corporations, and health maintenance organizations. The term does not apply to coverage for specified diseases or other limited benefit coverage.\n(2) \u201cMammography\u201d means the x-ray examination of the breast using equipment dedicated specifically for mammography, including the x-ray tube, filter, compression device, and digital detector. The term includes breast tomosynthesis.\n(3) \u201cOther breast imaging services\u201d means diagnostic mammography, ultrasound, and magnetic resonance imaging services that enable health care providers to detect the presence or absence of breast cancer and other abnormalities affecting the breast or breast tissue.\n(4) \u201cScreening\u201d includes the mammography or ultrasound test procedure and a qualified physician\u2019s interpretation of the results of the procedure, including additional views and interpretation as needed.\nSec. 2. EFFECTIVE DATE\nThis act shall take effect on January 1, 2026 and shall apply to all health insurance plans issued on and after January 1, 2026 on such date as a health insurer offers, issues, or renews the health insurance plan, but in no event later than January 1, 2027.SERVICES; COVERAGE REQUIRED\n(a)(1) Insurers shall provide coverage for screening by mammography and for other medically necessary breast imaging services upon recommendation of a health care provider as needed to detect the presence of breast cancer and other abnormalities of the breast or breast tissue. In addition, insurers shall provide coverage for screening by ultrasound or another appropriate imaging service for a patient for whom the results of a screening mammogram were inconclusive or who has dense breast tissue, or both.\n(2) Benefits provided shall cover the full cost of the mammography, service or ultrasound, as applicable, and other breast imaging services and shall not be subject to any co-payment, deductible, coinsurance, or other cost- sharing requirement or additional charge, except to the extent that such coverage would disqualify a high-deductible health plan from eligibility for a health savings account pursuant to 26 U.S.C. \u00a7 223.",
+    "source_urls": [
+     "https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT094/ACT094%20As%20Enacted.pdf"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "VA": {
+   "abbr": "VA",
+   "name": "Virginia",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "Notwithstanding the provisions of \u00a7 38.2-3419 or subdivision A 1 of \u00a7 38.2-6506, and in addition to the\ncoverage required by \u00a7 38.2-3418.1, each insurer proposing to issue individual or group accident and\nsickness insurance policies providing hospital, medical and surgical, or major medical coverage on an\nexpense-incurred basis, each corporation providing individual or group accident and sickness subscription\ncontracts, and each health maintenance organization providing a health care plan for health care services\nshall not impose cost sharing for diagnostic breast examinations and supplemental breast examinations\nunder such policy, contract, or plan delivered, issued for delivery, or renewed in the Commonwealth.\nB. As used in this section:\n\"Cost sharing\" means any coinsurance, copayment, or deductible.\n\"Diagnostic breast examination\" means a medically necessary and appropriate, in accordance with the\nNational Comprehensive Cancer Network Guidelines, examination of the breast, including such an\nexamination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that\nis used to evaluate (i) an abnormality seen or suspected from a screening for the detection of breast cancer or\n(ii) an abnormality detected by another means of examination.\n\"Supplemental breast examination\" means a medically necessary and appropriate, in accordance with the\nNational Comprehensive Cancer Network Guidelines, examination of the breast, including such an\nexamination using diagnostic mammography, breast magnetic resonance imaging, or breast ultrasound, that\nis (i) used to screen for breast cancer when there is no abnormality seen or suspected and (ii) based on\npersonal or family medical history or additional factors that may increase the individual's risk of breast\ncancer.",
+    "source_urls": [
+     "https://lis.virginia.gov/bill-details/20251/HB1828"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "WA": {
+   "abbr": "WA",
+   "name": "Washington",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "NEW SECTION. A new section is added to chapter 48.43 RCW to read as follows:\n(1) Except as provided in subsection (2) of this section, for nongrandfathered health plans issued or renewed on or after January 1, 2024, that include coverage of supplemental breast examinations and diagnostic breast examinations, health carriers may not impose cost sharing for such examinations.\n(2) For a health plan that provides coverage of supplemental breast examinations and diagnostic breast examinations and is offered as a qualifying health plan for a health savings account, the health carrier shall establish the plan's cost sharing for the coverage of the services described in this section at the minimum level necessary to preserve the enrollee's ability to claim tax exempt contributions from their health savings account under internal revenue service laws and regulations.\n(3) For purposes of this section:\n(a) \"Diagnostic breast examination\" means a medically necessary and appropriate examination of the breast, including an examination using diagnostic mammography, digital breast tomosynthesis (also called three-dimensional mammography), breast magnetic resonance imaging, or breast ultrasound, that is used to evaluate an abnormality:\n(i) Seen or suspected from a screening examination for breast cancer; or\n(ii) Detected by another means of examination.\n(b) \"Supplemental breast examination\" means a medically necessary and appropriate examination of the breast, including an examination using breast magnetic resonance imaging or breast ultrasound, that is:\n(i) Used to screen for breast cancer when there is no abnormality seen or suspected; and\n(ii) Based on personal or family medical history, or additional factors that may increase the individual's risk of breast cancer.",
+    "source_urls": [
+     "https://www.billtrack50.com/billdetail/1523731"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": true,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "WV": {
+   "abbr": "WV",
+   "name": "West Virginia",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "WI": {
+   "abbr": "WI",
+   "name": "Wisconsin",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Proposed legislation to require follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "WY": {
+   "abbr": "WY",
+   "name": "Wyoming",
+   "fipi": {
+    "composite": 0,
+    "breast": 0,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": false,
+     "MRI": false,
+     "Molecular breast imaging": false
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  },
+  "DC": {
+   "abbr": "DC",
+   "name": "District of Columbia",
+   "fipi": {
+    "composite": 2,
+    "breast": 2,
+    "lung": 0
+   },
+   "breast": {
+    "study_classification": "Mandated no-cost coverage for follow-up imaging after screening",
+    "qualifies": true,
+    "law_text": "(a) Any individual or group health benefit plan, including Medicaid, shall provide health insurance benefits to cover:\n\n(1) A baseline mammogram for women, including a 3-D mammogram;\n\n(2) An annual screening mammogram for women, including a 3-D mammogram; and\n\n(3) Adjuvant breast cancer screening, including magnetic resonance imaging, ultrasound screening, or molecular breast imaging of the breast, if:\n\n(A) A mammogram demonstrates a Class C or Class D breast density classification; or\n\n(B) A woman is believed to be at an increased risk for cancer due to family history or prior personal history of breast cancer, positive genetic testing, or other indications of an increased risk for cancer as determined by a woman's physician or advanced practice registered nurse.\n(1) A baseline mammogram for women, including a 3-D mammogram;\n\n(2) An annual screening mammogram for women, including a 3-D mammogram; and\n\n(3) Adjuvant breast cancer screening, including magnetic resonance imaging, ultrasound screening, or molecular breast imaging of the breast, if:\n\n(A) A mammogram demonstrates a Class C or Class D breast density classification; or\n\n(B) A woman is believed to be at an increased risk for cancer due to family history or prior personal history of breast cancer, positive genetic testing, or other indications of an increased risk for cancer as determined by a woman's physician or advanced practice registered nurse.",
+    "source_urls": [
+     "https://code.dccouncil.gov/us/dc/council/code/sections/31-2902"
+    ],
+    "notes": "",
+    "domains": {
+     "coverage": 1,
+     "modality": 1,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "Diagnostic mammography": false,
+     "Contrast-enhanced mammography": false,
+     "Ultrasound": true,
+     "MRI": true,
+     "Molecular breast imaging": true
+    }
+   },
+   "lung": {
+    "study_classification": "No mandate for follow-up imaging coverage",
+    "qualifies": false,
+    "law_text": "",
+    "source_urls": [],
+    "notes": "",
+    "domains": {
+     "coverage": 0,
+     "modality": 0,
+     "prior_auth": 0,
+     "biopsy": 0
+    },
+    "modalities": {
+     "CT": false,
+     "PET": false
+    }
+   }
+  }
+ }
+}

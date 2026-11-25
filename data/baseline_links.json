@@ -1,0 +1,110 @@
+{
+ "AK": {
+  "breast": {
+   "label": "HB285 (33rd Legislature)",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB285"
+  }
+ },
+ "AR": {
+  "lung": {
+   "label": "HB1316 (95th General Assembly (2025 Regular))",
+   "url": "https://arkleg.state.ar.us/Bills/Detail?id=hb1316&ddBienniumSession=2025%2F2025R"
+  }
+ },
+ "FL": {
+  "breast": {
+   "label": "S0158 (2025 Regular Session)",
+   "url": "https://www.flsenate.gov/Session/Bill/2025/158"
+  }
+ },
+ "GA": {
+  "breast": {
+   "label": "HB315 (2023-2024 Regular Session)",
+   "url": "https://www.legis.ga.gov/legislation/64161"
+  }
+ },
+ "IA": {
+  "breast": {
+   "label": "HF2489 (90th General Assembly)",
+   "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF2489"
+  }
+ },
+ "ID": {
+  "breast": {
+   "label": "H0134 (2025 Regular Session)",
+   "url": "https://legislature.idaho.gov/sessioninfo/2025/legislation/H0134/"
+  }
+ },
+ "IL": {
+  "breast": {
+   "label": "HB4180 (103rd General Assembly)",
+   "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=4180&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  }
+ },
+ "KY": {
+  "breast": {
+   "label": "HB115 (2024 Regular Session)",
+   "url": "https://apps.legislature.ky.gov/record/24RS/hb115.html"
+  }
+ },
+ "MA": {
+  "breast": {
+   "label": "H4918 (193rd General Court)",
+   "url": "https://malegislature.gov/Bills/193/H4918"
+  }
+ },
+ "MS": {
+  "breast": {
+   "label": "SB2858 (2024 Regular Session)",
+   "url": "https://billstatus.ls.state.ms.us/2024/pdf/history/SB/SB2858.xml"
+  }
+ },
+ "NH": {
+  "breast": {
+   "label": "HB1296 (2024 Regular Session)",
+   "url": "https://gc.nh.gov/bill_status/legacy/bs2016/bill_status.aspx?lsr=2186&sy=2024&sortoption=&txtsessionyear=2024&txtbillnumber=HB1296"
+  }
+ },
+ "NV": {
+  "lung": {
+   "label": "SB387 (83rd Legislature (2025))",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12683/Overview"
+  }
+ },
+ "NY": {
+  "lung": {
+   "label": "A01195 (2025-2026 General Assembly)",
+   "url": "https://www.nysenate.gov/legislation/bills/2025/A1195"
+  }
+ },
+ "OK": {
+  "breast": {
+   "label": "HB1389 (2025 Regular Session)",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=hb1389&Session=2500"
+  }
+ },
+ "OR": {
+  "breast": {
+   "label": "SB1041 (2023 Legislative Measures)",
+   "url": "https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/SB1041"
+  }
+ },
+ "PA": {
+  "breast": {
+   "label": "SB88 (2025-2026 Regular Session)",
+   "url": "https://www.palegis.us/legislation/bills/2025/sb88"
+  }
+ },
+ "TX": {
+  "breast": {
+   "label": "SB1065 (87th Legislature Regular Session)",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=87R&Bill=SB1065"
+  }
+ },
+ "VA": {
+  "breast": {
+   "label": "HB1828 (2025 Regular Session)",
+   "url": "https://lis.virginia.gov/bill-details/20251/HB1828"
+  }
+ }
+}

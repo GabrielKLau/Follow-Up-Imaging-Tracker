@@ -1,0 +1,18 @@
+.env
+.DS_Store
+__pycache__/
+cache/
+.venv/
+
+# Private working files: never published
+*.xlsx
+*.pdf
+review.html
+PLAN.md
+.Rhistory
+.claude/
+untitled folder/
+NEXT_STEPS.md
+*.pptx
+gabriel-site/
+data/study_corrected_summary.json

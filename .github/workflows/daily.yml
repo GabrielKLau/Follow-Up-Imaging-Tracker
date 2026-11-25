@@ -1,0 +1,41 @@
+name: Daily legislation update
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # every day, 11:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+      - name: Find new bills
+        env:
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/discover.py --year 2
+      - name: Refresh tracked bills
+        env:
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+        run: python pipeline/update.py
+      - name: Rebuild site data
+        run: python pipeline/build_site.py
+      - name: Commit changes
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet || git commit -m "Daily legislation update"
+          git push

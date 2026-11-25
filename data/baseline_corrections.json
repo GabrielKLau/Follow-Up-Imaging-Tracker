@@ -1,0 +1,60 @@
+[
+ {
+  "state": "ID",
+  "organ": "breast",
+  "date": "2026-11-13",
+  "label": "Supplemental screening mandate without cost-sharing; does not cover follow-up (diagnostic) imaging",
+  "reason": "Idaho Code 39-2301 requires coverage of all costs of one supplemental breast screening a year for high-risk patients, defined as imaging when no abnormality is seen or suspected. Subsection (4) allows cost-sharing only beyond that minimum, so the original reading that it permits cost-sharing was wrong. It still does not qualify because it does not address follow-up imaging after an abnormal screening. Score unchanged (0); only the spreadsheet label is corrected.",
+  "changes": {},
+  "category": "supplemental"
+ },
+ {
+  "state": "FL",
+  "organ": "breast",
+  "date": "2026-11-13",
+  "label": "Partial mandate: SB 158 (2025) applies only to the state employee group insurance program",
+  "reason": "The study scored Florida as a full mandate (2 points). On review, SB 158 removes cost-sharing for diagnostic and supplemental breast examinations only in the state group insurance program, with no mandate on commercial plans. Florida is therefore a partial mandate (striped green) and earns no FIPI points.",
+  "changes": {
+   "qualifies": false,
+   "domains": {
+    "coverage": 0,
+    "modality": 0,
+    "prior_auth": 0,
+    "biopsy": 0
+   }
+  }
+ },
+ {
+  "state": "NV",
+  "organ": "lung",
+  "date": "2026-11-13",
+  "label": "Screening mandate only: SB 387 (2025) as enacted does not cover follow-up imaging or prohibit cost-sharing",
+  "reason": "The study scored Nevada lung at 1 point using the text of SB 387 as introduced, which covered additional diagnostic services after screening with no deductible, copayment or coinsurance. The bill was amended before passage. The enacted (chaptered) text requires plans that cover lung cancer treatment to cover screening under American Cancer Society guidelines and contains no follow-up imaging or cost-sharing provisions. Nevada therefore has no qualifying lung law; its breast law (SB 330, 2023) is unaffected. The statutory text shown below is the introduced version recorded in the study.",
+  "changes": {
+   "qualifies": false,
+   "domains": {
+    "coverage": 0,
+    "modality": 0,
+    "prior_auth": 0,
+    "biopsy": 0
+   }
+  }
+ },
+ {
+  "state": "DC",
+  "organ": "breast",
+  "date": "2026-11-13",
+  "label": "Supplemental screening mandate: covers adjuvant screening for dense breasts or elevated risk; does not cover follow-up (diagnostic) imaging",
+  "reason": "The study scored DC at 2 points. D.C. Code 31-2902, as amended by the Breast Density Screening and Notification Act of 2018 (B22-0960), requires coverage of baseline and annual mammograms and of adjuvant screening (MRI, ultrasound or molecular breast imaging) when a mammogram shows dense breast tissue or the patient is at increased risk. That is supplemental screening, not imaging to evaluate an abnormal screening finding, and the section itself does not state a cost-sharing prohibition. Treated like Idaho: a related law that is not counted.",
+  "changes": {
+   "qualifies": false,
+   "domains": {
+    "coverage": 0,
+    "modality": 0,
+    "prior_auth": 0,
+    "biopsy": 0
+   }
+  },
+  "category": "supplemental"
+ }
+]
